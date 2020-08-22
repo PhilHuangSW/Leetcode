@@ -27,29 +27,43 @@
 # @param {Integer[]} nums
 # @param {Integer} n
 # @return {Integer[]}
+# def shuffle(nums, n)
+#     # If it's less than 2, no need to reorder
+#     if nums.length <= 2
+#         return nums
+#     end
+
+#     # Since we know that the array is ordered by 
+#     # [x1, x2, x3,...,xn, y1, y2, y3,...,yn], 
+#     # we can create an array of just y values
+#     y_arr = []
+#     for i in n...nums.length
+#         y_arr.push nums[i]
+#     end
+    
+#     # Once we have the y array, we can just use 
+#     # a for loop and interlock the x and y values
+#     # into our final array
+#     final_arr = []
+#     for i in 0...(nums.length/2)
+#         final_arr.push nums[i]
+#         final_arr.push y_arr[i]
+#     end
+#     final_arr
+# end
+
 def shuffle(nums, n)
     # If it's less than 2, no need to reorder
     if nums.length <= 2
         return nums
     end
 
-    # Since we know that the array is ordered by 
-    # [x1, x2, x3,...,xn, y1, y2, y3,...,yn], 
-    # we can create an array of just y values
-    y_arr = []
-    for i in n...nums.length
-        y_arr.push nums[i]
-    end
-    
-    # Once we have the y array, we can just use 
-    # a for loop and interlock the x and y values
-    # into our final array
     final_arr = []
     for i in 0...(nums.length/2)
         final_arr.push nums[i]
-        final_arr.push y_arr[i]
+        final_arr.push nums[i+n]
     end
-    final_arr.inspect
+    final_arr
 end
 
 
