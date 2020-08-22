@@ -43,7 +43,7 @@ Constraints:
 - Number of nodes will not exceed 30.
 - Each node's value is either 0 or 1.
 
-[Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Convert_Binary_Number_Linked_List_to_Integer.rb)
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Convert_Binary_Number_Linked_List_to_Integer.rb)
 
 ---
 
@@ -65,6 +65,37 @@ Note:
 1. 1 <= A.length <= 5000
 2. 0 <= A[i] <= 5000
 
-[Solution]()
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Sort_Array_by_Parity.rb)
 
 ---
+
+## August 20th, 2020 Week 3 Challenge Problem: Reorder (Linked) List
+
+Given a singly linked list L: L0→L1→…→Ln-1→Ln,
+reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
+
+You may not modify the values in the list's nodes, only nodes itself may be changed.
+
+Example 1:
+```
+Given 1->2->3->4, reorder it to 1->4->2->3.
+```
+
+Example 2:
+```
+Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Reorder_Linked_List.rb)
+
+---
+
+
+
+
+
+
+
+
+
+
