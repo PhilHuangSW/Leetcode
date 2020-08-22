@@ -33,5 +33,14 @@
 # @param {Integer} m
 # @return {Integer}
 def max_distance(position, m)
-    
+    required_force = 0
+    puts position.inspect
 end
+
+# position = [5,4,3,2,1,1000000000]
+# m = 2
+
+position = [1,2,3,4,7]
+m = 3
+
+max_distance(position, m)
