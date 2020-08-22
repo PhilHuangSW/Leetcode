@@ -8,8 +8,63 @@ The linked list holds the binary representation of a number.
 
 Return the decimal value of the number in the linked list.
 
+Example 1:
+```
+Input: head = [1,0,1]
+Output: 5
+Explanation: (101) in base 2 = (5) in base 10
+```
+
+Example 2:
+```
+Input: head = [0]
+Output: 0
+```
+
+Example 3:
+```
+Input: head = [1]
+Output: 1
+```
+
+Example 4:
+```
+Input: head = [1,0,0,1,0,0,1,1,1,0,0,0,0,0,0]
+Output: 18880
+```
+
+Example 5:
+```
+Input: head = [0,0]
+Output: 0
+```
+Constraints:
+- The Linked List is not empty.
+- Number of nodes will not exceed 30.
+- Each node's value is either 0 or 1.
+
 [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Convert_Binary_Number_Linked_List_to_Integer.rb)
 
 ---
 
-## 
+## August 21st, 2020 Week 3 Challenge Problem: Sort Array By Parity
+
+Given an array A of non-negative integers, return an array consisting 
+of all the even elements of A, followed by all the odd elements of A.
+
+You may return any answer array that satisfies this condition.
+
+Example 1:
+```
+Input: [3,1,2,4]
+Output: [2,4,3,1]
+The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
+```
+
+Note:
+1. 1 <= A.length <= 5000
+2. 0 <= A[i] <= 5000
+
+[Solution]()
+
+---
