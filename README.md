@@ -117,13 +117,69 @@ Constraints:
 
 ---
 
+## 1551. Minimum Operations to Make Array Equal
 
+You have an array arr of length n where arr[i] = (2 * i) + 1 for all valid values of i (i.e. 0 <= i < n).
 
+In one operation, you can select two indices x and y where 0 <= x, y < n and subtract 1 from arr[x] and 
+add 1 to arr[y] (i.e. perform arr[x] -=1 and arr[y] += 1). The goal is to make all the elements of the 
+array equal. It is guaranteed that all the elements of the array can be made equal using some operations.
 
+Given an integer n, the length of the array. Return the minimum number of operations needed to make all 
+the elements of arr equal.
 
+Example 1:
+```
+Input: n = 3
+Output: 2
+Explanation: arr = [1, 3, 5]
+First operation choose x = 2 and y = 0, this leads arr to be [2, 3, 4]
+In the second operation choose x = 2 and y = 0 again, thus arr = [3, 3, 3].
+```
 
+Example 2:
+```
+Input: n = 6
+Output: 9
+```
 
+Constraints:
+- 1 <= n <= 10^4
 
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/min_op_make_array_equal.rb)
 
+--- 
 
+## 1552. Magnetic Force Between Two Balls
 
+In universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put 
+in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls 
+and needs to distribute the balls into the baskets such that the minimum magnetic force between any two balls 
+is maximum.
+
+Rick stated that magnetic force between two different balls at positions x and y is |x - y|.
+
+Given the integer array position and the integer m. Return the required force.
+
+Example 1:
+```
+Input: position = [1,2,3,4,7], m = 3
+Output: 3
+Explanation: Distributing the 3 balls into baskets 1, 4 and 7 will make the magnetic force between ball pairs [3, 3, 6]. The minimum magnetic force is 3. We cannot achieve a larger minimum magnetic force than 3.
+```
+
+Example 2:
+```
+Input: position = [5,4,3,2,1,1000000000], m = 2
+Output: 999999999
+Explanation: We can use baskets 1 and 1000000000.
+```
+
+Constraints:
+- n == position.length
+- 2 <= n <= 10^5
+- 1 <= position[i] <= 10^9
+- All integers in position are distinct.
+- 2 <= m <= position.length
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/magnetic_force_between_two_balls.rb)
