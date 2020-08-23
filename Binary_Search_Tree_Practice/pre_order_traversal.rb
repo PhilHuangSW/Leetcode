@@ -26,6 +26,42 @@
 # end
 # @param {TreeNode} root
 # @return {Integer[]}
+
+# Recursive solution
 def preorder_traversal(root)
-    
+    tree_vals = []
+    if root == nil
+        return tree_vals
+    end
+
+    tree_vals << root.val << preorder_traversal(root.left) << preorder_traversal(root.right)
+    tree_vals.flatten
+end
+
+# Another more elegant (in my opinion) recursive solution
+def preorder_traversal(root, tree_vals = [])
+    return tree_vals if root.nil?
+    tree_vals << root.val
+    preorder_traversal(root.left, tree_vals)
+    preorder_traversal(root.right, tree_vals)
+    tree_vals
+end
+
+# Iterative solution
+def preorder_traversal(root)
+    tree_vals = []
+    return tree_vals if root.nil?
+    stack = [root]
+    while (!stack.empty?)
+        node = stack.pop
+        tree_vals << node.val
+
+        if node.right.nil?
+            stack.push(node.left)
+        end
+        if node.left.nil?
+            stack.push(node.right)
+        end
+    end
+    tree_vals
 end
