@@ -1,6 +1,6 @@
 # [Leet Code](https://www.leetcode.com) Problems written in Ruby.
 
-## 1290. Convert Binary Number in a Linked List to Integer
+## 1290. [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
 Given head which is a reference node to a singly-linked list. 
 The value of each node in the linked list is either 0 or 1. 
@@ -48,6 +48,7 @@ Constraints:
 ---
 
 ## August 21st, 2020 Week 3 Challenge Problem: Sort Array By Parity
+## 905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
 
 Given an array A of non-negative integers, return an array consisting 
 of all the even elements of A, followed by all the odd elements of A.
@@ -70,6 +71,7 @@ Note:
 ---
 
 ## August 20th, 2020 Week 3 Challenge Problem: Reorder (Linked) List
+## 143. [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 Given a singly linked list L: L0→L1→…→Ln-1→Ln,
 reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
@@ -90,7 +92,7 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 
 ---
 
-## 1550. Three Consecutive Odds
+## 1550. [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)
 
 Given an integer array arr, return true if there are three consecutive odd numbers in the array. 
 Otherwise, return false.
@@ -117,7 +119,7 @@ Constraints:
 
 ---
 
-## 1551. Minimum Operations to Make Array Equal
+## 1551. [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)
 
 You have an array arr of length n where arr[i] = (2 * i) + 1 for all valid values of i (i.e. 0 <= i < n).
 
@@ -150,7 +152,7 @@ Constraints:
 
 --- 
 
-## 1552. Magnetic Force Between Two Balls
+## 1552. [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)
 
 In universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put 
 in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls 
@@ -186,7 +188,7 @@ Constraints:
 
 ---
 
-## 1470. Shuffle the Array
+## 1470. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
 
 Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
@@ -222,7 +224,7 @@ Constraints:
 
 ---
 
-## 771. Jewels and Stones
+## 771. [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 
 You're given strings J representing the types of stones that are jewels, and S representing 
 the stones you have.  Each character in S is a type of stone you have.  You want to know how 
@@ -251,7 +253,7 @@ Note:
 
 --- 
 
-## Sum of Left Leaves
+## 404. [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
 
 Find the sum of all left leaves in a given binary tree.
 
@@ -270,4 +272,31 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
 
 ---
 
-## 
+## 876. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+
+Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+
+If there are two middle nodes, return the second middle node.
+
+Example 1:
+```
+Input: [1,2,3,4,5]
+Output: Node 3 from this list (Serialization: [3,4,5])
+The returned node has value 3.  (The judge's serialization of this node is [3,4,5]).
+Note that we returned a ListNode object ans, such that:
+ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.
+```
+
+Example 2:
+```
+Input: [1,2,3,4,5,6]
+Output: Node 4 from this list (Serialization: [4,5,6])
+Since the list has two middle nodes with values 3 and 4, we return the second one.
+```
+
+Note:
+- The number of nodes in the given list will be between 1 and 100.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/middle_linkedlist.rb)
+
+--- 
