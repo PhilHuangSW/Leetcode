@@ -1,4 +1,4 @@
-# [Leet Code](https://www.leetcode.com) Problems written in (mostly) Ruby.
+# [Leet Code](https://www.leetcode.com) Problems written in Ruby.
 
 ## 1290. Convert Binary Number in a Linked List to Integer
 
@@ -266,7 +266,7 @@ Example:
 There are two left leaves in the binary tree, with values 9 and 15 respectively. Return 24.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_left_leaves.rb)
+### [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_left_leaves.rb)
 
 ---
 
