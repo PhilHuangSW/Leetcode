@@ -57,10 +57,10 @@ def preorder_traversal(root)
         tree_vals << node.val
 
         if node.right.nil?
-            stack.push(node.left)
+            stack << node.left
         end
         if node.left.nil?
-            stack.push(node.right)
+            stack << node.right
         end
     end
     tree_vals

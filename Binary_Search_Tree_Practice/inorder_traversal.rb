@@ -46,35 +46,16 @@ end
 def inorder_traversal(root)
     ans = []
     return ans if root.nil?
-    stack = [root]
-    while (!stack.empty?)
+    stack = []
+    node = root
+    while (!stack.empty? || node != nil)
+        while (node != nil)
+            stack << node
+            node = node.left
+        end
         node = stack.pop
-        if node.left.nil?
-            ans << node.val
-            stack.push(node.right)
-        end
-        if node.right.nil?
-            stack.push(node.left)
-        end
+        ans << node.val
+        node = node.right
     end
     ans
-end
-
-# Iterative solution
-def preorder_traversal(root)
-    tree_vals = []
-    return tree_vals if root.nil?
-    stack = [root]
-    while (!stack.empty?)
-        node = stack.pop
-        tree_vals << node.val
-
-        if node.right.nil?
-            stack.push(node.left)
-        end
-        if node.left.nil?
-            stack.push(node.right)
-        end
-    end
-    tree_vals
 end
