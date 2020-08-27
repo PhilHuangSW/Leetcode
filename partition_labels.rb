@@ -54,6 +54,8 @@ def partition_labels(s)
 end
 
 
+# My initial approach to the problem, where you continually replace the 
+# hash value with the index (and not putting every index into the hash)
 
 # @param {String} s
 # @return {Integer[]}
