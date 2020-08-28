@@ -639,4 +639,58 @@ Note:
 
 ---
 
-## 
+## 605. [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
+
+Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.
+
+Given a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty), and a number **n**, return if **n** new flowers can be planted in it without violating the no-adjacent-flowers rule.
+
+Example 1:
+```
+Input: flowerbed = [1,0,0,0,1], n = 1
+Output: True
+```
+
+Example 2:
+```
+Input: flowerbed = [1,0,0,0,1], n = 2
+Output: False
+```
+
+Note:
+- The input array won't violate no-adjacent-flowers rule.
+- The input array size is in the range of [1, 20000].
+- n is a non-negative integer which won't exceed the input array size.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/can_place_flowers.rb)
+
+---
+
+## 121. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+Say you have an array for which the ith element is the price of a given stock on day i.
+
+If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+
+Note that you cannot sell a stock before you buy one.
+
+Example 1:
+```
+Input: [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+             Not 7-1 = 6, as selling price needs to be larger than buying price.
+```
+
+Example 2:
+```
+Input: [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transaction is done, i.e. max profit = 0.
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
+
+---
+
+##
