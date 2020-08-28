@@ -26,8 +26,9 @@ def three_consecutive_odds(arr)
         return false
     end
     
-    count = 0
+    count = 0 # value to keep track of seen odds, resets if it sees even
     for i in 0...arr.length
+        # odd checker
         if (arr[i]%2) == 1
             count += 1
             if count == 3

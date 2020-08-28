@@ -28,14 +28,18 @@ def remove_elements(head, val)
         end
     end
     
+    # requires helper pointers in order to preserve head
     current_node = head
     previous_node = head
     while (current_node != nil)
+        # removes the element from the linked list
         if current_node.val == val
             previous_node.next = current_node.next
         else
+            # previous_node is always one step before current_node (hence the name)
             previous_node = current_node
         end
+        # this is where current_node passes previous_node
         current_node = current_node.next
     end
     head

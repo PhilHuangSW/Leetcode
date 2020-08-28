@@ -33,6 +33,8 @@ def top_k_frequent(nums, k)
     for i in 0...nums.length
         h[nums[i]] += 1
     end
+
+    # sorts the hash using largest values (most occurrences)
     sorted_hash = []
     sorted_hash = h.sort_by {|k, v| -v}
     for i in 0...k

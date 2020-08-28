@@ -73,8 +73,8 @@ def partition_labels(s)
     end
     
     current_partition = char_map[s[0]]
-    partition = [s[0]]
-    for i in 1..s.length
+    partition = []
+    for i in 0...s.length
         partition << s[i]
         if char_map[s[i]] > current_partition
             current_partition = char_map[s[i]]

@@ -27,9 +27,15 @@
 # @return {String[]}
 def common_chars(a)
     h = Hash.new{|h,k| h[k] = 0}
+    # grabs the first str in array, then splits each char into a hash map
+    # where hash[char] = occurrences (i.e. number of times seen in the string)
     first_word = a.shift
     first_word.each_char {|char| h[char] += 1}
     
+    # create a temp hash that will compare its values to that of our first
+    # string. If we match with a char, increment that char if and only if
+    # the first string also has that many occurrences
+    # i.e. bella and stellla would return {"e"=>1, "l"=>2, "a"=>1}
     a.each.with_index do |word, index|
         temp_h = Hash.new(0)
         word.each_char do |char|
@@ -37,13 +43,22 @@ def common_chars(a)
                 temp_h[char] += 1
             end
         end
+        # replace h with temp, then reset temp for the new string
+        # h holds the chars that match between 2 strings
         h = temp_h
     end
     
     str = ""
     h.each do |key, val|
+        # key * val means {"l"=>2} would produce ["l", "l"]
         str += key * val
     end
     
+    # string are all letters that occur in all strings, split breaks them
+    # up into each char
     str.split(//)
 end
+
+str = ["bella", "portebll", "coelal"]
+
+common_chars(str)

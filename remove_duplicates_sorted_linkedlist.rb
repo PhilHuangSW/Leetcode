@@ -29,9 +29,12 @@ def delete_duplicates(head)
     current_node = head
     previous_node = head
     while(!current_node.nil?)
+        # is the value already in hash? if so, delete it by redirecting the node
+        # to its next node
         if h.has_key?(current_node.val)
             previous_node.next = current_node.next
         else
+            # if it's the first time seeing the value, add it to the hash
             h[current_node.val] += 1
             previous_node = current_node
         end

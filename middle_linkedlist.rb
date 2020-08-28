@@ -37,19 +37,36 @@ def middle_node(head)
     end
     count = 0
     node = head
+    # get a count of how long the linked list is
     while node.next != nil
         node = node.next
         count += 1
     end
-    
+    # if it's odd, get the middle node
+    # if it's even, get the 2nd middle node
     if (count%2 == 1)
         count = count/2 + 1
     else
         count = count/2
     end
     
+    # iterate through until your head points to the middle node
     for i in 0...count
         head = head.next
     end
     return head    
+end
+
+def middle_node(head)
+    return head if head.next.nil?
+    return head.next if head.next.next.nil?
+    # we have 2 pointers: slow moves 1 space at a time while fast moves 2 spaces
+    slow = head.next
+    fast = head.next.next
+    while(!fast.next.nil?)
+        slow = slow.next
+        return slow if (fast.next.next == nil)
+        fast = fast.next.next
+    end
+    slow
 end

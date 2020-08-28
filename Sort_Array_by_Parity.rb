@@ -22,6 +22,7 @@
 def sort_array_by_parity(a)
     even_arr = []
     odd_arr = []
+    # separate the even and odd values into their own array
     for i in 0...a.length
         if (a[i]%2) == 0
             even_arr.push a[i]
@@ -30,6 +31,7 @@ def sort_array_by_parity(a)
         end
     end
     
+    # append all odd values onto the end of even values 
     for i in 0...odd_arr.length
         even_arr.push odd_arr[i]
     end

@@ -33,6 +33,7 @@ def num_jewels_in_stones(j, s)
     s_arr = s.split(//)
     count = 0
 
+    # compares each J value with each S value, if any match, increment the counter
     for i in 0...j_arr.length
         for j in 0...s_arr.length
             if j_arr[i] == s_arr[j]
@@ -43,6 +44,6 @@ def num_jewels_in_stones(j, s)
     count    
 end
 
-num_jewels_in_stones("aA", "aAAbbbb")
-num_jewels_in_stones("z", "ZZ")
-num_jewels_in_stones("aAb", "aAAbbbb")
+p num_jewels_in_stones("aA", "aAAbbbb")
+p num_jewels_in_stones("z", "ZZ")
+p num_jewels_in_stones("aAb", "aAAbbbb")

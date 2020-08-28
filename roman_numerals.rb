@@ -25,8 +25,8 @@ def roman_numeral_converter(num, result = "")
         1 => "I",
     }
 
-    #p num
     roman_numerals.keys.each do |divisor|
+        # divmod returns the quotient(first value) and the mod(second value)
         quotient, mod = num.divmod(divisor)
         result << roman_numerals[divisor] * quotient
         return roman_numeral_converter(mod, result) if quotient > 0

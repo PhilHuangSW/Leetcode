@@ -30,15 +30,17 @@ def is_palindrome(head)
     return true if head.next.nil?
     
     arr = []
+    # create an array of the linked list
     while (head != nil)
         arr << head.val
         head = head.next
     end
+    # first half
     first_half_arr = []
     for i in 0...(arr.length/2)
         first_half_arr << arr[i]
     end
-    
+    # second half (note if it's an odd sized array, only get half, i.e. 7/2 = 3)
     second_half_arr = []
     if (arr.length%2 == 0)
         for i in (arr.length - 1).downto(arr.length/2)

@@ -72,6 +72,7 @@ class SubrectangleQueries
     :type rectangle: Integer[][]
 =end
     def initialize(rectangle)
+        # the @ symbol is an instance variable of self.
         @rectangle = rectangle
     end
 

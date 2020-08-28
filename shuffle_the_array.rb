@@ -59,6 +59,7 @@ def shuffle(nums, n)
     end
 
     final_arr = []
+    # push x1, then y1, then x2, then y2, etc.
     for i in 0...(nums.length/2)
         final_arr.push nums[i]
         final_arr.push nums[i+n]

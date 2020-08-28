@@ -43,18 +43,23 @@ def reorder_list(head)
     temp_two = temp
     last = head
     count = 0
+    # this while loop grabs the last element in the linked list, and 
+    # counts the number of elements in the linked list
     while current.next != nil
         last = current
         current = current.next
         count += 1
     end
     count = count/2
-    
+
     for i in 0...count
+        # first pass, current is already last node
+        # every other pass, this while loop gets the last node
         while current.next != nil
             last = current
             current = current.next
         end
+        # first pass, head.next -> last node
         if i == 0
             head.next = current
             last.next = nil

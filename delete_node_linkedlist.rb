@@ -35,6 +35,8 @@
 # @param {ListNode} node
 # @return {Void} Do not return anything, modify node in-place instead.
 def delete_node(node)
+    # replace the value with the value of the next node, then have it point
+    # to the node after the next one
     node.val = node.next.val
     node.next = node.next.next
 end

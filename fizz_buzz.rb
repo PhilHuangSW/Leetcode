@@ -32,6 +32,8 @@
 def fizz_buzz(n)
     ans = []
     for i in 1..n
+        # must put this case first otherwise if 15 came up and either
+        # i%3 or i%5 were in front, they would push "Fizz" or "Buzz" respectively
         if (i%3 == 0 && i%5 == 0)
             ans << "FizzBuzz"
         elsif i%3 == 0

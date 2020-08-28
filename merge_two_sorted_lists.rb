@@ -29,6 +29,7 @@ def merge_two_lists(l1, l2)
     l3 = ListNode.new
     node = l3
     
+    # builds our merged list l3 until one list is "empty"
     while (!l1.nil? && !l2.nil?)
         if (l1.val <= l2.val)
             node.val = l1.val
@@ -41,6 +42,7 @@ def merge_two_lists(l1, l2)
         node = node.next
     end
     
+    # appends the rest of l2 onto l3 if l1 is "empty"
     while(l1.nil? && !l2.nil?) 
         node.val = l2.val
         l2 = l2.next
@@ -50,6 +52,7 @@ def merge_two_lists(l1, l2)
         end
     end
     
+    # appends the rest of l1 onto l3 if l2 is "empty"
     while(!l1.nil? && l2.nil?)
         node.val = l1.val
         l1 = l1.next

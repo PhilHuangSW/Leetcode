@@ -44,31 +44,28 @@
 # end
 # @param {ListNode} head
 # @return {Integer}
-
-
 def get_decimal_value(head)
     ll_to_array = []
-    not_empty = true
-    while (not_empty)
-        ll_to_array.push (head.val)
-        if head.next == nil
-            not_empty = false;
-        else
-            head = head.next
-        end
+    # builds the linked list into an array
+    while (!head.nil?)
+        ll_to_array << head.val
+        head = head.next
     end
 
-    binary_to_decimal_array = []
-    count = 0
+    decimal = 0
     placement = ll_to_array.length - 1
 
+    # this converts the from binary to decimal using the formula
+    # 2**n + ... + 2**2 + 2**1 + 2**0 with the exponent only
+    # counting if the binary value at that index is 1
+    # i.e. 101 = 2**2 + 2**0 = 4 + 1 = 5
     for i in 0...ll_to_array.length
         if ll_to_array[i] == 1
-            binary_to_decimal_array.push (2**placement)
+            decimal += (2**placement)
             placement -= 1
         else
             placement -= 1
         end
     end
-    binary_to_decimal_array.sum
+    decimal
 end
