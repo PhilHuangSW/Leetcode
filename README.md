@@ -47,7 +47,7 @@ Constraints:
 
 ---
 
-## August 21st, 2020 Week 3 Challenge Problem: Sort Array By Parity
+## August 21st, 2020 Week 3 Challenge Problem
 ## 905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
 
 Given an array A of non-negative integers, return an array consisting 
@@ -70,7 +70,7 @@ Note:
 
 ---
 
-## August 20th, 2020 Week 3 Challenge Problem: Reorder (Linked) List
+## August 20th, 2020 Week 3 Challenge Problem
 ## 143. [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 Given a singly linked list L: L0→L1→…→Ln-1→Ln,
@@ -487,7 +487,8 @@ Note:
 
 --- 
 
-## [Fizz Buzz](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/552/week-4-august-22nd-august-28th/3437/)
+## August 26th, 2020 Week 4 Challenge Problem
+## 412. [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 
 Write a program that outputs the string representation of numbers from 1 to n.
 
@@ -693,7 +694,8 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ---
 
-## [Pancake Sorting](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/553/week-5-august-29th-august-31st/3441/)
+## August 29th, 2020 Week 5 Challenge Problem
+## 969. [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)
 
 Given an array of integers A, We need to sort the array performing a series of **pancake flips**.
 
@@ -733,6 +735,80 @@ Constraints:
 - All integers in A are unique (i.e. A is a permutation of the integers from 1 to A.length).
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/pancake_sorting.rb)
+
+---
+
+## August 28th, 2020 Week 4 Challenge Problem
+## 470. [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)
+
+Given the **API** rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10 which generates a uniform random integer in the range 1 to 10. You can only call the API rand7 and you shouldn't call any other API. Please **don't** use the system's Math.random().
+
+**Notice that** Each test case has one argument n, the number of times that your implemented function rand10 will be called while testing. 
+
+**Follow up:**
+
+1. What is the expected value for the number of calls to rand7() function?
+2. Could you minimize the number of calls to rand7()?
+ 
+
+Example 1:
+```
+Input: n = 1
+Output: [2]
+```
+
+Example 2:
+```
+Input: n = 2
+Output: [2,8]
+```
+
+Example 3:
+```
+Input: n = 3
+Output: [3,8,10]
+``` 
+
+Constraints:
+- 1 <= n <= 105
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/implement_rand10_using_rand7.rb)
+
+---
+
+## August 29th, 2020 Week 5 Challenge Problem
+## 952. [Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)
+
+Given a non-empty array of unique positive integers A, consider the following graph:
+
+- There are A.length nodes, labelled A[0] to A[A.length - 1];
+- There is an edge between A[i] and A[j] if and only if A[i] and A[j] share a common factor greater than 1.
+
+Return the size of the largest connected component in the graph.
+
+Example 1:
+```
+Input: [4,6,15,35]
+Output: 4
+```
+
+Example 2:
+```
+Input: [20,50,9,63]
+Output: 2
+```
+
+Example 3:
+```
+Input: [2,3,6,7,4,12,21,39]
+Output: 8
+```
+
+Note:
+- 1 <= A.length <= 20000
+- 1 <= A[i] <= 100000
+
+## [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_component_size_common_factor.rb)
 
 ---
 
