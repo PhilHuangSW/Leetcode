@@ -10,10 +10,12 @@
 
 # Example 1:
 # Input: [4,6,15,35]
+# 4---6---15---35
 # Output: 4
 
 # Example 2:
 # Input: [20,50,9,63]
+# 20---50  9---63
 # Output: 2
 
 # Example 3:

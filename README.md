@@ -808,8 +808,105 @@ Note:
 - 1 <= A.length <= 20000
 - 1 <= A[i] <= 100000
 
-## [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_component_size_common_factor.rb)
+## [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_component_size_common_factor.rb)
 
 ---
 
-##
+## 303. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+
+Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
+
+Example:
+```
+Given nums = [-2, 0, 3, -5, 2, -1]
+
+sumRange(0, 2) -> 1
+sumRange(2, 5) -> -1
+sumRange(0, 5) -> -3
+```
+
+Constraints:
+- You may assume that the array does not change.
+- There are many calls to sumRange function.
+- 0 <= nums.length <= 10^4
+- -10^5 <= nums[i] <= 10^5
+- 0 <= i <= j < nums.length
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/range_sum_query_immutable.rb)
+
+---
+
+## August 31st, 2020 Week 5 Challenge Problem
+## 450. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+
+Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
+
+Basically, the deletion can be divided into two stages:
+1. Search for a node to remove.
+2. If the node is found, delete the node.
+
+**Note:** Time complexity should be O(height of tree).
+
+Example:
+```
+root = [5,3,6,2,4,null,7]
+key = 3
+
+    5
+   / \
+  3   6
+ / \   \
+2   4   7
+
+Given key to delete is 3. So we find the node with value 3 and delete it.
+
+One valid answer is [5,4,6,2,null,null,7], shown in the following BST.
+
+    5
+   / \
+  4   6
+ /     \
+2       7
+
+Another valid answer is [5,2,6,null,4,null,7].
+
+    5
+   / \
+  2   6
+   \   \
+    4   7
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_bst.rb)
+
+---
+
+## 949. [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)
+
+Given an array of 4 digits, return the largest 24 hour time that can be made.
+
+The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger if more time has elapsed since midnight.
+
+Return the answer as a string of length 5.  If no valid time can be made, return an empty string.
+ 
+Example 1:
+```
+Input: [1,2,3,4]
+Output: "23:41"
+```
+
+Example 2:
+```
+Input: [5,5,5,5]
+Output: ""
+``` 
+
+Note:
+- A.length == 4
+- 0 <= A[i] <= 9
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_time_given_digits.rb)
+
+---
+
+## 
