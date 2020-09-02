@@ -49,10 +49,15 @@ def max_profit(prices)
     end
 
     # get the max profit
-    for i in 0...all_prices.length
-        if all_prices[i] >= profit
-            profit = all_prices[i]
-        end
-    end
+    # for i in 0...all_prices.length
+    #     if all_prices[i] >= profit
+    #         profit = all_prices[i]
+    #     end
+    # end
+    profit = all_prices.max
     profit
 end
+
+profit = [10,7,5,8,11,9]
+
+p max_profit(profit)
