@@ -31,9 +31,11 @@ def repeated_substring_pattern(s)
         # builds a substring up to half of string, so if 
         # str is "abcabcabc" it will build "a" then "ab"
         # then "abc" then "abca" (assuming it hasn't returned true yet)
-        tmp = s[0..i]
-        if 0 == s.size%tmp.size
-            return true if s == tmp * (s.size/tmp.size)
+        temp = s[0..i]
+        if (s.size%temp.size) == 0
+            if temp * (s.size/temp.size) == s
+                return true
+            end
         end
     end
     false
