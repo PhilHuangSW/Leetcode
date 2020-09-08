@@ -34,9 +34,41 @@
 # @param {TreeNode} root
 # @return {Integer}
 def sum_root_to_leaf(root)
-    
+    path = []
+    collection = []
+    ans = 0
+    root_leaf(root, path, collection)
+    for i in 0...collection.length
+        ans += convert_binary(collection[i])
+    end
+    ans            
 end
 
+# get an array of all paths from root to leaf
+# note that Ruby has mutable objects, hence making a duplicate -
+# - object when pushing a path into collection
+# standard DFS traversal, start at root and go all the way down to leaf node
+def root_leaf(node, path = [], collection)
+    return if node.nil?
+    path << node.val
+    if (node.left.nil? && node.right.nil?)
+        temp = path.dup
+        temp = temp.join
+        collection << temp
+    end
+    if node.left
+        root_leaf(node.left, path, collection)
+        path.pop
+    end
+    if node.right
+        root_leaf(node.right, path, collection)
+        path.pop
+    end
+end
+
+# regular binary-to-decimal converter
+# depending on the binary's length, if a value is 1, 2^(placement)
+# i.e. 101 == 2^2 + 2^0 == 4 + 1 == 5
 def convert_binary(num)
     num_array = num.to_s.split(//).map{|char| char.to_i}
     decimal = 0
@@ -49,6 +81,3 @@ def convert_binary(num)
     end
     decimal = binary_array.sum
 end
-
-n = "100"
-p convert_binary(n)
