@@ -881,6 +881,7 @@ Another valid answer is [5,2,6,null,4,null,7].
 
 ---
 
+## September 1st, 2020 Week 1 Challenge Problem
 ## 949. [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)
 
 Given an array of 4 digits, return the largest 24 hour time that can be made.
@@ -939,6 +940,7 @@ Note:
 
 ---
 
+## September 3rd, 2020 Week 1 Challenge Problem
 ## 459. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
 
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
@@ -1178,6 +1180,7 @@ Constraints:
 
 ---
 
+## September 7th, 2020 Week 1 Challenge Problem
 ## 290. [Word Pattern](https://leetcode.com/problems/word-pattern/)
 
 Given a pattern and a string str, find if str follows the same pattern.
