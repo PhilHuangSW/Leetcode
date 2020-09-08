@@ -51,7 +51,8 @@ Constraints:
 
 ## August 21st, 2020 Week 3 Challenge Problem
 ## 905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an array A of non-negative integers, return an array consisting 
 of all the even elements of A, followed by all the odd elements of A.
 
@@ -69,12 +70,14 @@ Note:
 2. 0 <= A[i] <= 5000
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Sort_Array_by_Parity.rb)
+</details>
 
 ---
 
 ## August 20th, 2020 Week 3 Challenge Problem
 ## 143. [Reorder List](https://leetcode.com/problems/reorder-list/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a singly linked list L: L0→L1→…→Ln-1→Ln,
 reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
 
@@ -91,11 +94,13 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Reorder_Linked_List.rb)
+</details>
 
 ---
 
 ## 1550. [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an integer array arr, return true if there are three consecutive odd numbers in the array. 
 Otherwise, return false.
  
@@ -118,11 +123,13 @@ Constraints:
 - 1 <= arr[i] <= 1000
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Three_Consecutive_Odds.rb)
+</details>
 
 ---
 
 ## 1551. [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 You have an array arr of length n where arr[i] = (2 * i) + 1 for all valid values of i (i.e. 0 <= i < n).
 
 In one operation, you can select two indices x and y where 0 <= x, y < n and subtract 1 from arr[x] and 
@@ -151,11 +158,13 @@ Constraints:
 - 1 <= n <= 10^4
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/min_op_make_array_equal.rb)
+</details>
 
 --- 
 
 ## 1552. [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 In universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put 
 in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls 
 and needs to distribute the balls into the baskets such that the minimum magnetic force between any two balls 
@@ -187,11 +196,13 @@ Constraints:
 - 2 <= m <= position.length
 
 ### [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/magnetic_force_between_two_balls.rb)
+</details>
 
 ---
 
 ## 1470. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
 Return the array in the form [x1,y1,x2,y2,...,xn,yn].
@@ -223,11 +234,13 @@ Constraints:
 - 1 <= nums[i] <= 10^3
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/shuffle_the_array.rb)
+</details>
 
 ---
 
 ## 771. [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 You're given strings J representing the types of stones that are jewels, and S representing 
 the stones you have.  Each character in S is a type of stone you have.  You want to know how 
 many of the stones you have are also jewels.
@@ -252,11 +265,13 @@ Note:
 - The characters in J are distinct.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/jewels_and_stones.rb)
+</details>
 
 --- 
 
 ## 404. [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Find the sum of all left leaves in a given binary tree.
 
 Example:
@@ -271,11 +286,13 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
 ```
 
 ### [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_left_leaves.rb)
+</details>
 
 ---
 
 ## 876. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a non-empty, singly linked list with head node head, return a middle node of linked list.
 
 If there are two middle nodes, return the second middle node.
@@ -300,11 +317,13 @@ Note:
 - The number of nodes in the given list will be between 1 and 100.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/middle_linkedlist.rb)
+</details>
 
 --- 
 
 ## 237. [Delete Note in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 
 Given linked list -- head = [4,5,1,9], which looks like following:
@@ -332,11 +351,13 @@ Note:
 - Do not return anything from your function.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_linkedlist.rb)
+</details>
 
 ---
 
 ## 203. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Remove all elements from a linked list of integers that have value **val**.
 
 Example:
@@ -346,11 +367,13 @@ Output: 1->2->3->4->5
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_linkedlist_elements.rb)
+</details>
 
 ---
 
 ## 234. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a singly linked list, determine if it is a palindrome.
 
 Example 1:
@@ -369,11 +392,13 @@ Follow up:
 Could you do it in O(n) time and O(1) space?
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/palindrome_linkedlist.rb)
+</details>
 
 ---
 
 ## 83. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a sorted linked list, delete all duplicates such that each element appear only once.
 
 Example 1:
@@ -389,11 +414,13 @@ Output: 1->2->3
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_sorted_linkedlist.rb)
+</details>
 
 ---
 
 ## 21. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
 
 Example:
@@ -403,11 +430,13 @@ Output: 1->1->2->3->4->4
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/merge_two_sorted_lists.rb)
+</details>
 
 ---
 
 ## 1002. [Find Common Characters](https://leetcode.com/problems/find-common-characters/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an array A of strings made only from lowercase letters, return a list of all characters that show up in all strings within the list **(including duplicates)**.  For example, if a character occurs 3 times in all strings but not 4 times, you need to include that character three times in the final answer.
 
 You may return the answer in any order.
@@ -430,11 +459,13 @@ Note:
 - A[i][j] is a lowercase letter
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/find_common_characters.rb)
+</details>
 
 --- 
 
 ## 884. [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 We are given two sentences A and B.  (A sentence is a string of space separated words.  Each word consists only of lowercase letters.)
 
 A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
@@ -461,11 +492,13 @@ Note:
 - A and B both contain only spaces and lowercase letters.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/uncommon_words_two_sentences.rb)
+</details>
 
 ---
 
 ## 347. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a non-empty array of integers, return the **k** most frequent elements.
 
 Example 1:
@@ -486,12 +519,14 @@ Note:
 - You can return the answer in any order.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/top_k_frequent_elements.rb)
+</details>
 
 --- 
 
 ## August 26th, 2020 Week 4 Challenge Problem
 ## 412. [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Write a program that outputs the string representation of numbers from 1 to n.
 
 But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
@@ -521,11 +556,13 @@ Return:
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/fizz_buzz.rb)
+</details>
 
 --- 
 
 ## 763. [Partition Labels](https://leetcode.com/problems/partition-labels/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 
 Example 1:
@@ -543,11 +580,13 @@ Note:
 - S will consist of lowercase English letters ('a' to 'z') only.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/partition_labels.rb)
+</details>
 
 --- 
 
 ## 1476. [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Implement the class SubrectangleQueries which receives a rows x cols rectangle as a matrix of integers in the constructor and supports two methods:
 
 1. updateSubrectangle(int row1, int col1, int row2, int col2, int newValue)
@@ -618,11 +657,13 @@ Constraints:
 - 0 <= col < cols
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/subrectangle_queries.rb)
+</details>
 
 ---
 
 ## 581. [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an integer array, you need to find one **continuous subarray** that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.
 
 You need to find the **shortest** such subarray and output its length.
@@ -639,11 +680,13 @@ Note:
 - The input array may contain duplicates, so ascending order here means <=.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/shortest_unsorted_continuous_subarray.rb)
+</details>
 
 ---
 
 ## 605. [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.
 
 Given a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty), and a number **n**, return if **n** new flowers can be planted in it without violating the no-adjacent-flowers rule.
@@ -666,11 +709,13 @@ Note:
 - n is a non-negative integer which won't exceed the input array size.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/can_place_flowers.rb)
+</details>
 
 ---
 
 ## 121. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Say you have an array for which the ith element is the price of a given stock on day i.
 
 If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
@@ -693,12 +738,14 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
+</details>
 
 ---
 
 ## August 29th, 2020 Week 5 Challenge Problem
 ## 969. [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an array of integers A, We need to sort the array performing a series of **pancake flips**.
 
 In one pancake flip we do the following steps:
@@ -737,12 +784,14 @@ Constraints:
 - All integers in A are unique (i.e. A is a permutation of the integers from 1 to A.length).
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/pancake_sorting.rb)
+</details>
 
 ---
 
 ## August 28th, 2020 Week 4 Challenge Problem
 ## 470. [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given the **API** rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10 which generates a uniform random integer in the range 1 to 10. You can only call the API rand7 and you shouldn't call any other API. Please **don't** use the system's Math.random().
 
 **Notice that** Each test case has one argument n, the number of times that your implemented function rand10 will be called while testing. 
@@ -775,12 +824,14 @@ Constraints:
 - 1 <= n <= 105
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/implement_rand10_using_rand7.rb)
+</details>
 
 ---
 
 ## August 29th, 2020 Week 5 Challenge Problem
 ## 952. [Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a non-empty array of unique positive integers A, consider the following graph:
 
 - There are A.length nodes, labelled A[0] to A[A.length - 1];
@@ -811,11 +862,13 @@ Note:
 - 1 <= A[i] <= 100000
 
 ## [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_component_size_common_factor.rb)
+</details>
 
 ---
 
 ## 303. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
 
 Example:
@@ -835,12 +888,14 @@ Constraints:
 - 0 <= i <= j < nums.length
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/range_sum_query_immutable.rb)
+</details>
 
 ---
 
 ## August 31st, 2020 Week 5 Challenge Problem
 ## 450. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
 
 Basically, the deletion can be divided into two stages:
@@ -880,12 +935,14 @@ Another valid answer is [5,2,6,null,4,null,7].
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_bst.rb)
+</details>
 
 ---
 
 ## September 1st, 2020 Week 1 Challenge Problem
 ## 949. [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given an array of 4 digits, return the largest 24 hour time that can be made.
 
 The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger if more time has elapsed since midnight.
@@ -909,11 +966,13 @@ Note:
 - 0 <= A[i] <= 9
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_time_given_digits.rb)
+</details>
 
 ---
 
 ## 1089. [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
 
 Note that elements beyond the length of the original array are not written.
@@ -939,12 +998,14 @@ Note:
 - 0 <= arr[i] <= 9
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/duplicate_zeros.rb)
+</details>
 
 ---
 
 ## September 3rd, 2020 Week 1 Challenge Problem
 ## 459. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
 
 Example 1:
@@ -968,11 +1029,13 @@ Explanation: It's the substring "abc" four times. (And the substring "abcabc" tw
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/repeated_substring_pattern.rb)
+</details>
 
 ---
 
 ## 1305. [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given two binary search trees root1 and root2.
 
 Return a list containing all the integers from both trees sorted in **ascending** order.
@@ -1012,11 +1075,13 @@ Constraints:
 - Each node's value is between [-10^5, 10^5].
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/all_elements_bst.rb)
+</details>
 
 ---
 
 ## 832. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a binary matrix A, we want to flip the image horizontally, then invert it, and return the resulting image.
 
 To flip an image horizontally means that each row of the image is reversed.  For example, flipping [1, 1, 0] horizontally results in [0, 1, 1].
@@ -1044,11 +1109,13 @@ Notes:
 - 0 <= A[i][j] <= 1
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/flipping_image.rb)
+</details>
 
 --- 
 
 ## [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not.
 
 You need to merge them into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of new tree.
@@ -1074,11 +1141,13 @@ Merged tree:
 Note: The merging process must start from the root nodes of both trees.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/merge_two_binary_trees.rb)
+</details>
 
 ---
 
 ## 1325. [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a binary tree root and an integer target, delete all the **leaf nodes** with value target.
 
 Note that once you delete a leaf node with value target, if it's parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you can't).
@@ -1122,11 +1191,13 @@ Constraints:
 - Each node's value is between [1, 1000].
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_leaves_given_value.rb)
+</details>
 
 ---
 
 ## 2. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order** and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -1139,11 +1210,13 @@ Explanation: 342 + 465 = 807.
 ```
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/add_two_numbers.rb)
+</details>
 
 ---
 
 ## 3. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a string s, find the length of the longest substring without repeating characters.
 
 Example 1:
@@ -1179,12 +1252,14 @@ Constraints:
 - s consists of English letters, digits, symbols and spaces.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_substring_without_repeating_characters.rb)
+</details>
 
 ---
 
 ## September 7th, 2020 Week 1 Challenge Problem
 ## 290. [Word Pattern](https://leetcode.com/problems/word-pattern/)
-
+<details>
+	<summary>Problem Details and Solution</summary>
 Given a pattern and a string str, find if str follows the same pattern.
 
 Here **follow** means a full match, such that there is a bijection between a letter in pattern and a **non-empty** word in str.
@@ -1217,6 +1292,7 @@ Notes:
 - You may assume pattern contains only lowercase letters, and str contains lowercase letters that may be separated by a single space.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/word_pattern.rb)
+</details>
 
 ---
 
