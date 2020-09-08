@@ -106,7 +106,7 @@ end
 # @param {Integer[]} a
 # @return {Integer[]}
 def pancake_sort(a)
-	p "start: #{a}"
+	# p "start: #{a}"
 	index = 0
 	largest = a[0]
 	size = (a.length-1)
@@ -151,18 +151,18 @@ def reverse_swap(arr, k)
 	new_arr
 end
 
-a = [3,2,4,1]
-b = [1,2,3]
-c = [5,2,8,1,3]
-d = [3,2,1]
-e = [5,4,3,2,1]
-f = [5,3,4,1,2]
-g = [21,2,5,3,30,1]
+a1 = [3,2,4,1]
+a2 = [1,2,3]
+a3 = [5,2,8,1,3]
+a4 = [3,2,1]
+a5 = [5,4,3,2,1]
+a6 = [5,3,4,1,2]
+a7 = [21,2,5,3,30,1]
 
-p pancake_sort(a)
-p pancake_sort(b)
-p pancake_sort(c)
-p pancake_sort(d)
-p pancake_sort(e)
-p pancake_sort(f)
-p pancake_sort(g)
+puts "Expected: [1, 2, 3, 4] -- Actual #{pancake_sort(a1)}"
+puts "Expected: [1, 2, 3] -- Actual #{pancake_sort(a2)}"
+puts "Expected: [1, 2, 3, 5, 8] -- Actual #{pancake_sort(a3)}"
+puts "Expected: [1, 2, 3] -- Actual #{pancake_sort(a4)}"
+puts "Expected: [1, 2, 3, 4, 5] -- Actual #{pancake_sort(a5)}"
+puts "Expected: [1, 2, 3, 4, 5] -- Actual #{pancake_sort(a6)}"
+puts "Expected: [1, 2, 3, 5, 21, 30] -- Actual #{pancake_sort(a7)}"

@@ -38,3 +38,15 @@ def min_operations(n)
     end
     min_num_times
 end
+
+n1 = 3
+n2 = 6
+n3 = 12
+n4 = 4
+n5 = 2
+
+puts "Expected: 2 -- Actual: #{min_operations(n1)}"
+puts "Expected: 9 -- Actual: #{min_operations(n2)}"
+puts "Expected: 36 -- Actual: #{min_operations(n3)}"
+puts "Expected: 4 -- Actual: #{min_operations(n4)}"
+puts "Expected: 1 -- Actual: #{min_operations(n5)}"

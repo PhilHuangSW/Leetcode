@@ -55,3 +55,18 @@ def can_place_flowers(flowerbed, n)
     # if we placed equal or more flowers into plots that n, return true
     plots >= n ? true : false
 end
+
+flowerbed1 = [1,0,0,0,1]
+n1 = 1
+flowerbed2 = [1,0,0,0,1]
+n2 = 2
+flowerbed3 = [0,0,0,1,0,1,0,0]
+n3 = 3
+flowerbed4 = [0,0,0]
+n4 = 2
+
+puts "Expected: true -- Actual: #{can_place_flowers(flowerbed1, n1)}"
+puts "Expected: false -- Actual: #{can_place_flowers(flowerbed2, n2)}"
+puts "Expected: false -- Actual: #{can_place_flowers(flowerbed3, n3)}"
+puts "Expected: true -- Actual: #{can_place_flowers(flowerbed4, n4)}"
+

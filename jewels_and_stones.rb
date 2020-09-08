@@ -44,6 +44,19 @@ def num_jewels_in_stones(j, s)
     count    
 end
 
-p num_jewels_in_stones("aA", "aAAbbbb")
-p num_jewels_in_stones("z", "ZZ")
-p num_jewels_in_stones("aAb", "aAAbbbb")
+j1 = "aA"
+s1 = "aAAbbbb"
+j2 = "z"
+s2 = "ZZ"
+j3 = "aAb"
+s3 = "aAAbbbb"
+j4 = "pH"
+s4 = "plrtlplhH"
+j5 = "RMph"
+s5 = "RmMpPhHHhHhPRmM"
+
+puts "Expected: 3 -- Actual: #{num_jewels_in_stones(j1, s1)}"
+puts "Expected: 0 -- Actual: #{num_jewels_in_stones(j2, s2)}"
+puts "Expected: 7 -- Actual: #{num_jewels_in_stones(j3, s3)}"
+puts "Expected: 3 -- Actual: #{num_jewels_in_stones(j4, s4)}"
+puts "Expected: 8 -- Actual: #{num_jewels_in_stones(j5, s5)}"

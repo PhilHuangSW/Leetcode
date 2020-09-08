@@ -45,4 +45,20 @@ def duplicate_zeros(arr)
     end
     count += 1
   end
+  arr
 end
+
+arr1 = [1,0,2,3,0,4,5,0]
+arr2 = [1,2,3]
+arr3 = [1,0,3]
+arr4 = [0,2,3,5,0,0]
+arr5 = [0,2,3,0]
+
+puts "Expected: [1, 0, 0, 2, 3, 0, 0, 4] -- Actual: #{duplicate_zeros(arr1)}"
+puts "Expected: [1, 2, 3] -- Actual: #{duplicate_zeros(arr2)}"
+puts "Expected: [1, 0, 0] -- Actual: #{duplicate_zeros(arr3)}"
+puts "Expected: [0, 0, 2, 3, 5, 0] -- Actual: #{duplicate_zeros(arr4)}"
+puts "Expected: [0, 0, 2, 3] -- Actual: #{duplicate_zeros(arr5)}"
+
+
+

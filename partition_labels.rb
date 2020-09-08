@@ -53,36 +53,48 @@ def partition_labels(s)
     result
 end
 
+s1 = "ababcbacadefegdehijhklij"
+s2 = "ababphilip"
+s3 = "abcdefg"
+s4 = "abcda"
+s5 = "philhuang"
+
+puts "Expected: [9, 7, 8] -- Actual: #{partition_labels(s1)}"
+puts "Expected: [4, 6] -- Actual: #{partition_labels(s2)}"
+puts "Expected: [1, 1, 1, 1, 1, 1, 1] -- Actual: #{partition_labels(s3)}"
+puts "Expected: [5] -- Actual: #{partition_labels(s4)}"
+puts "Expected: [1, 4, 1, 1, 1, 1] -- Actual: #{partition_labels(s5)}"
+
 
 # My initial approach to the problem, where you continually replace the 
 # hash value with the index (and not putting every index into the hash)
 
 # @param {String} s
 # @return {Integer[]}
-def partition_labels(s)
-    result = []
-    return [1] if (s.length == 1)
+# def partition_labels(s)
+#     result = []
+#     return [1] if (s.length == 1)
     
-    char_map = Hash.new{|char_map, char| char_map[char] = 0}
-    for i in 0..s.length
-        if !char_map.has_key?(s[i])
-            char_map[s[i]] = i
-        else
-            char_map[s[i]] = i
-        end
-    end
+#     char_map = Hash.new{|char_map, char| char_map[char] = 0}
+#     for i in 0..s.length
+#         if !char_map.has_key?(s[i])
+#             char_map[s[i]] = i
+#         else
+#             char_map[s[i]] = i
+#         end
+#     end
     
-    current_partition = char_map[s[0]]
-    partition = []
-    for i in 0...s.length
-        partition << s[i]
-        if char_map[s[i]] > current_partition
-            current_partition = char_map[s[i]]
-        end
-        if i == current_partition
-            result << partition.length
-            partition = []
-        end
-    end
-    result
-end
+#     current_partition = char_map[s[0]]
+#     partition = []
+#     for i in 0...s.length
+#         partition << s[i]
+#         if char_map[s[i]] > current_partition
+#             current_partition = char_map[s[i]]
+#         end
+#         if i == current_partition
+#             result << partition.length
+#             partition = []
+#         end
+#     end
+#     result
+# end

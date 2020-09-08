@@ -58,3 +58,13 @@ def length_of_longest_substring(s)
     ans = longest.max
     ans
 end
+
+s1 = "abcabcbb"
+s2 = "bbbbb"
+s3 = "pwwkew"
+s4 = ""
+
+puts "Expected: 3 -- Actual: #{length_of_longest_substring(s1)}"
+puts "Expected: 1 -- Actual: #{length_of_longest_substring(s2)}"
+puts "Expected: 3 -- Actual: #{length_of_longest_substring(s3)}"
+puts "Expected: 0 -- Actual: #{length_of_longest_substring(s4)}"

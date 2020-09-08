@@ -28,7 +28,6 @@ def sum_of_left_leaves(root)
     sum = 0
     return 0 if root.nil?
     level(root, 0, ans, sum)
-
 end
 
 def level(root, level, ans, sum)

@@ -42,3 +42,20 @@ def top_k_frequent(nums, k)
     end
     ans
 end
+
+nums1 = [1,1,1,2,2,3]
+k1 = 2
+nums2 = [1]
+k2 = 1
+nums3 = [5,4,4,5,5,5,2,1,1]
+k3 = 3
+nums4 = [10,2,3,1,1,10,10,10,5,5,5]
+k4 = 3
+nums5 = [6,6,1]
+k5 = 1
+
+puts "Expected: [1, 2] -- Actual: #{top_k_frequent(nums1, k1)}"
+puts "Expected: [1] -- Actual: #{top_k_frequent(nums2, k2)}"
+puts "Expected: [5, 1, 4] -- Actual: #{top_k_frequent(nums3, k3)}"
+puts "Expected: [10, 5, 1] -- Actual: #{top_k_frequent(nums4, k4)}"
+puts "Expected: [6] -- Actual: #{top_k_frequent(nums5, k5)}"

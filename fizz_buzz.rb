@@ -47,4 +47,10 @@ def fizz_buzz(n)
 	ans
 end
 
-p fizz_buzz(25)
+n1 = 15
+n2 = 5
+n3 = 2
+
+puts "Expected: [\"1\", \"2\", \"Fizz\", \"4\", \"Buzz\", \"Fizz\", \"7\", \"8\", \"Fizz\", \"Buzz\", \"11\", \"Fizz\", \"13\", \"14\", \"FizzBuzz\"] -- Actual: #{fizz_buzz(n1)}"
+puts "Expected: [\"1\", \"2\", \"Fizz\", \"4\", \"Buzz\"] -- Actual: #{fizz_buzz(n2)}"
+puts "Expected: [\"1\", \"2\"] -- Actual: #{fizz_buzz(n3)}"

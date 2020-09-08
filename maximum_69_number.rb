@@ -40,7 +40,6 @@
 def maximum69_number (num)
   num_array = num.to_s.split(//)
   for i in 0...num_array.length
-      p num_array[i]
       if num_array[i] == "6"
           num_array[i] = "9"
           break
@@ -48,3 +47,17 @@ def maximum69_number (num)
   end
   num_array.join.to_i
 end
+
+num1 = 6969
+num2 = 9669
+num3 = 669
+num4 = 966
+num5 = 666
+num6 = 999
+
+puts "Expected: 9969 -- Actual: #{maximum69_number(num1)}"
+puts "Expected: 9969 -- Actual: #{maximum69_number(num2)}"
+puts "Expected: 969 -- Actual: #{maximum69_number(num3)}"
+puts "Expected: 996 -- Actual: #{maximum69_number(num4)}"
+puts "Expected: 966 -- Actual: #{maximum69_number(num5)}"
+puts "Expected: 999 -- Actual: #{maximum69_number(num6)}"

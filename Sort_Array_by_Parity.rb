@@ -37,3 +37,16 @@ def sort_array_by_parity(a)
     end
     even_arr
 end
+
+a = [3,1,2,4]
+b = [7,2,9,3,1]
+c = [2,1]
+d = [1,4]
+e = [6,2,9,8,3,1,7]
+
+
+puts "Expected: [2, 4, 3, 1] -- Actual: #{sort_array_by_parity(a)}"
+puts "Expected: [2, 7, 9, 3, 1] -- Actual: #{sort_array_by_parity(b)}"
+puts "Expected: [2, 1] -- Actual: #{sort_array_by_parity(c)}"
+puts "Expected: [4, 1] -- Actual: #{sort_array_by_parity(d)}"
+puts "Expected: [6, 2, 8, 9, 3, 1, 7] -- Actual: #{sort_array_by_parity(e)}"

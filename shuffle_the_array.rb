@@ -68,8 +68,19 @@ def shuffle(nums, n)
 end
 
 
-shuffle([2,5,1,3,4,7], 3)
+nums1 = [2,5,1,3,4,7]
+n1 = 3
+nums2 = [1,2,3,4,4,3,2,1]
+n2 = 4
+nums3 = [1,1,2,2]
+n3 = 2
+nums4 = [7,4,5,4,1,8,9,5,10,3]
+n4 = 5
+nums5 = [9,2,23,12,10,4,7,11,13,22,40,1]
+n5 = 6
 
-shuffle([1,2,3,4,4,3,2,1], 4)
-
-shuffle([1,1,2,2], 2)
+puts "Expected: [2, 3, 5, 4, 1, 7] -- Actual: #{shuffle(nums1, n1)}"
+puts "Expected: [1, 4, 2, 3, 3, 2, 4, 1] -- Actual: #{shuffle(nums2, n2)}"
+puts "Expected: [1, 2, 1, 2] -- Actual: #{shuffle(nums3, n3)}"
+puts "Expected: [7, 8, 4, 9, 5, 5, 4, 10, 1, 3] -- Actual: #{shuffle(nums4, n4)}"
+puts "Expected: [9, 7, 2, 11, 23, 13, 12, 22, 10, 40, 4, 1] -- Actual: #{shuffle(nums5, n5)}"

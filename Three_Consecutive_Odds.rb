@@ -41,5 +41,20 @@ def three_consecutive_odds(arr)
     false
 end
 
-puts three_consecutive_odds([2,6,4,1])
-puts three_consecutive_odds([1,2,34,3,4,5,7,23,12])
+arr1 = [2,6,4,1]
+arr2 = [1,2,34,3,4,5,7,23,12]
+arr3 = [1,7,23,19,4,9]
+arr4 = [12,10,1,2,3,5]
+arr5 = [2,6,5,7,4,10,3]
+arr6 = []
+arr7 = [1,3,5]
+arr8 = [2,4,6]
+
+puts "Expected: false -- Actual: #{three_consecutive_odds(arr1)}"
+puts "Expected: true -- Actual: #{three_consecutive_odds(arr2)}"
+puts "Expected: true -- Actual: #{three_consecutive_odds(arr3)}"
+puts "Expected: false -- Actual: #{three_consecutive_odds(arr4)}"
+puts "Expected: false -- Actual: #{three_consecutive_odds(arr5)}"
+puts "Expected: false -- Actual: #{three_consecutive_odds(arr6)}"
+puts "Expected: true -- Actual: #{three_consecutive_odds(arr7)}"
+puts "Expected: false -- Actual: #{three_consecutive_odds(arr8)}"

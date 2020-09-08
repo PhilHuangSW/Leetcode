@@ -50,3 +50,9 @@ def flip_and_invert_image(a)
     end
     b
 end
+
+a1 = [[1,1,0],[1,0,1],[0,0,0]]
+a2 = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
+
+puts "Expected: [[1, 0, 0], [0, 1, 0], [1, 1, 1]] -- Actual: #{flip_and_invert_image(a1)}"
+puts "Expected: [[1, 1, 0, 0], [0, 1, 1, 0], [0, 0, 0, 1], [1, 0, 1, 0]] -- Actual: #{flip_and_invert_image(a2)}"

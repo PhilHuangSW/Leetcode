@@ -66,3 +66,22 @@ def word_pattern(pattern, str)
   end    
 end
 
+pattern1 = "abba"
+str1 = "dog cat cat dog"
+pattern2 = "abba"
+str2 = "dog cat cat fish"
+pattern3 = "aaaa"
+str3 = "dog cat cat dog"
+pattern4 = "abba"
+str4 = "dog dog dog dog"
+pattern5 = "past"
+str5 = "dog cat mouse hamster"
+pattern6 = "philip"
+str6 = "dog cat mouse hamster mouse dog"
+
+puts "Expected: true -- Actual: #{word_pattern(pattern1, str1)}"
+puts "Expected: false -- Actual: #{word_pattern(pattern2, str2)}"
+puts "Expected: false -- Actual: #{word_pattern(pattern3, str3)}"
+puts "Expected: false -- Actual: #{word_pattern(pattern4, str4)}"
+puts "Expected: true -- Actual: #{word_pattern(pattern5, str5)}"
+puts "Expected: true -- Actual: #{word_pattern(pattern6, str6)}"

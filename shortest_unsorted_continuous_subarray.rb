@@ -34,3 +34,14 @@ def find_unsorted_subarray(nums)
     ans = (index.max - index.min) + 1
 end
 
+nums1 = [2,6,4,8,10,9,15]
+nums2 = [2,3,5,10,6,11]
+nums3 = [1,2,3,4,5]
+nums4 = [2,10,15,12,23,16,29]
+nums5 = [2,3]
+
+puts "Expected: 5 -- Actual: #{find_unsorted_subarray(nums1)}"
+puts "Expected: 2 -- Actual: #{find_unsorted_subarray(nums2)}"
+puts "Expected: 0 -- Actual: #{find_unsorted_subarray(nums3)}"
+puts "Expected: 4 -- Actual: #{find_unsorted_subarray(nums4)}"
+puts "Expected: 0 -- Actual: #{find_unsorted_subarray(nums5)}"

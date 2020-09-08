@@ -59,6 +59,14 @@ def common_chars(a)
     str.split(//)
 end
 
-str = ["bella", "portebll", "coelal"]
+str1 = ["bella","label","roller"]
+str2 = ["cool","lock","cook"]
+str3 = ["phil","hill","until"]
+str4 = ["candy","sandy","dandy","mandy"]
+str5 = ["rain","snow","dine"]
 
-common_chars(str)
+puts "Expected: [\"l\", \"l\", \"e\"] -- Actual: #{common_chars(str1)}"
+puts "Expected: [\"c\", \"o\"] -- Actual: #{common_chars(str2)}"
+puts "Expected: [\"i\", \"l\"] -- Actual: #{common_chars(str3)}"
+puts "Expected: [\"a\", \"n\", \"d\", \"y\"] -- Actual: #{common_chars(str4)}"
+puts "Expected: [\"n\"] -- Actual: #{common_chars(str5)}"

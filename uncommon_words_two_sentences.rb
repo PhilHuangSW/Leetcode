@@ -58,3 +58,20 @@ def uncommon_from_sentences(a, b)
     end
     ans
 end
+
+a1 = "this apple is sweet"
+b1 = "this apple is sour"
+a2 = "apple apple"
+b2 = "banana"
+a3 = "my name is philip"
+b3 = "my name is phil"
+a4 = "i am a software dev"
+b4 = "i am a software dev"
+a5 = "the fox is a fox"
+b5 = "the bear is a fox"
+
+puts "Expected: [\"sweet\", \"sour\"] -- Actual: #{uncommon_from_sentences(a1, b1)}"
+puts "Expected: [\"banana\"] -- Actual: #{uncommon_from_sentences(a2, b2)}"
+puts "Expected: [\"philip\", \"phil\"] -- Actual: #{uncommon_from_sentences(a3, b3)}"
+puts "Expected: [] -- Actual: #{uncommon_from_sentences(a4, b4)}"
+puts "Expected: [\"bear\"] -- Actual: #{uncommon_from_sentences(a5, b5)}"
