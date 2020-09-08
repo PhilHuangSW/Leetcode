@@ -49,8 +49,7 @@ Constraints:
 
 ---
 
-## August 21st, 2020 Week 3 Challenge Problem
-## 905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
+## 905. [Sort Array By Parity - August 21st, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/sort-array-by-parity/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given an array A of non-negative integers, return an array consisting 
@@ -74,8 +73,7 @@ Note:
 
 ---
 
-## August 20th, 2020 Week 3 Challenge Problem
-## 143. [Reorder List](https://leetcode.com/problems/reorder-list/)
+## 143. [Reorder List - August 20th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/reorder-list/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given a singly linked list L: L0→L1→…→Ln-1→Ln,
@@ -523,8 +521,7 @@ Note:
 
 --- 
 
-## August 26th, 2020 Week 4 Challenge Problem
-## 412. [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+## 412. [Fizz Buzz - August 26th, 2020 Week 4 Challenge Problem](https://leetcode.com/problems/fizz-buzz/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Write a program that outputs the string representation of numbers from 1 to n.
@@ -742,8 +739,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ---
 
-## August 29th, 2020 Week 5 Challenge Problem
-## 969. [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)
+## 969. [Pancake Sorting - August 29th, 2020 Week 5 Challenge Problem](https://leetcode.com/problems/pancake-sorting/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given an array of integers A, We need to sort the array performing a series of **pancake flips**.
@@ -788,8 +784,7 @@ Constraints:
 
 ---
 
-## August 28th, 2020 Week 4 Challenge Problem
-## 470. [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)
+## 470. [Implement Rand10() Using Rand7() - August 28th, 2020 Week 4 Challenge Problem](https://leetcode.com/problems/implement-rand10-using-rand7/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given the **API** rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10 which generates a uniform random integer in the range 1 to 10. You can only call the API rand7 and you shouldn't call any other API. Please **don't** use the system's Math.random().
@@ -828,8 +823,7 @@ Constraints:
 
 ---
 
-## August 29th, 2020 Week 5 Challenge Problem
-## 952. [Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)
+## 952. [Largest Component Size by Common Factor - August 29th, 2020 Week 5 Challenge Problem](https://leetcode.com/problems/largest-component-size-by-common-factor/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given a non-empty array of unique positive integers A, consider the following graph:
@@ -892,8 +886,7 @@ Constraints:
 
 ---
 
-## August 31st, 2020 Week 5 Challenge Problem
-## 450. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+## 450. [Delete Node in a BST - August 31st, 2020 Week 5 Challenge Problem](https://leetcode.com/problems/delete-node-in-a-bst/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
@@ -939,8 +932,7 @@ Another valid answer is [5,2,6,null,4,null,7].
 
 ---
 
-## September 1st, 2020 Week 1 Challenge Problem
-## 949. [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)
+## 949. [Largest Time for Given Digits - September 1st, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/largest-time-for-given-digits/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given an array of 4 digits, return the largest 24 hour time that can be made.
@@ -1002,8 +994,7 @@ Note:
 
 ---
 
-## September 3rd, 2020 Week 1 Challenge Problem
-## 459. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
+## 459. [Repeated Substring Pattern - September 3rd, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/repeated-substring-pattern/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
@@ -1113,7 +1104,7 @@ Notes:
 
 --- 
 
-## [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+## 617. [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not.
@@ -1256,8 +1247,7 @@ Constraints:
 
 ---
 
-## September 7th, 2020 Week 1 Challenge Problem
-## 290. [Word Pattern](https://leetcode.com/problems/word-pattern/)
+## 290. [Word Pattern - September 7th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/word-pattern/)
 <details>
 	<summary>Problem Details and Solution</summary>
 Given a pattern and a string str, find if str follows the same pattern.
