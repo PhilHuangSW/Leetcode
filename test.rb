@@ -19,6 +19,8 @@
 # p a.map{|char| char*5}
 # p a
 
-a = "Hello"
-puts "#{a} World"
-puts '#{a} World'
+a = ["0", "1"]
+
+p temp = a.dup
+p temp = temp.join.to_i
+p temp = temp.to_i
