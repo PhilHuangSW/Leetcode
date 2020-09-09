@@ -1354,6 +1354,93 @@ Note:
 
 ---
 
+## 129. [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+<details>
+    <summary>Problem Details and Solution</summary>
+Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
+
+An example is the root-to-leaf path 1->2->3 which represents the number 123.
+
+Find the total sum of all root-to-leaf numbers.
+
+Note: A leaf is a node with no children.
+
+Example:
+```
+Input: [1,2,3]
+    1
+   / \
+  2   3
+Output: 25
+Explanation:
+The root-to-leaf path 1->2 represents the number 12.
+The root-to-leaf path 1->3 represents the number 13.
+Therefore, sum = 12 + 13 = 25.
+```
+
+Example 2:
+```
+Input: [4,9,0,5,1]
+    4
+   / \
+  9   0
+ / \
+5   1
+Output: 1026
+Explanation:
+The root-to-leaf path 4->9->5 represents the number 495.
+The root-to-leaf path 4->9->1 represents the number 491.
+The root-to-leaf path 4->0 represents the number 40.
+Therefore, sum = 495 + 491 + 40 = 1026.
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_root_leaf_numbers.rb)
+</details>
+
+---
+
+## 100. [Same Tree](https://leetcode.com/problems/same-tree/)
+<details>
+    <summary>Problem Details and Solution</summary>
+Given two binary trees, write a function to check if they are the same or not.
+
+Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+
+Example 1:
+```
+Input:     1         1
+          / \       / \
+         2   3     2   3
+
+        [1,2,3],   [1,2,3]
+Output: true
+```
+
+Example 2:
+```
+Input:     1         1
+          /           \
+         2             2
+
+        [1,2],     [1,null,2]
+Output: false
+```
+
+Example 3:
+```
+Input:     1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+Output: false
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/same_tree.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
@@ -1363,6 +1450,5 @@ Note:
 </details>
 
 ---
-
 
 
