@@ -19,8 +19,12 @@
 # p a.map{|char| char*5}
 # p a
 
-a = ["0", "1"]
+a = [1,2,3]
+b = [1,2,3]
+a1 = []
+b1 = []
 
-p temp = a.dup
-p temp = temp.join.to_i
-p temp = temp.to_i
+p a1 = a.permutation(3).to_a
+p b1 = b.combination(3).to_a
+
+p a1 == b1
