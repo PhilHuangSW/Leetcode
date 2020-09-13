@@ -1692,6 +1692,30 @@ Constraints:
 
 ---
 
+## 387. [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+<details>
+    <summary>Problem Details and Solution</summary>
+Given a string, find the first non-repeating character in it and return its index. If it doesn't exist, return -1.
+
+Example 1:
+```
+s = "leetcode"
+return 0.
+```
+
+Example 2:
+```
+s = "loveleetcode"
+return 2.
+```
+
+Note: You may assume the string contains only lowercase English letters.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/first_unique_character_in_string.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
@@ -1701,3 +1725,4 @@ Constraints:
 </details>
 
 ---
+
