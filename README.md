@@ -1567,6 +1567,61 @@ Constraints:
 
 ---
 
+## 299. [Bulls and Cows - September 10th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/bulls-and-cows/)
+<details>
+    <summary>Problem Details and Solution</summary>
+You are playing the following Bulls and Cows game with your friend: You write down a number and ask your friend to guess what the number is. Each time your friend makes a guess, you provide a hint that indicates how many digits in said guess match your secret number exactly in both digit and position (called "bulls") and how many digits match the secret number but locate in the wrong position (called "cows"). Your friend will use successive guesses and hints to eventually derive the secret number.
+
+Write a function to return a hint according to the secret number and friend's guess, use A to indicate the bulls and B to indicate the cows. 
+
+Please note that both secret number and friend's guess may contain duplicate digits.
+
+Example 1:
+```
+Input: secret = "1807", guess = "7810"
+Output: "1A3B"
+Explanation: 1 bull and 3 cows. The bull is 8, the cows are 0, 1 and 7.
+```
+
+Example 2:
+```
+Input: secret = "1123", guess = "0111"
+Output: "1A1B"
+Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
+```
+
+Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/bulls_cows.rb)
+</details>
+
+---
+
+## 57. [Insert Interval - September 13th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/insert-interval/)
+<details>
+    <summary>Problem Details and Solution</summary>
+Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+
+You may assume that the intervals were initially sorted according to their start times.
+
+Example 1:
+```
+Input: intervals = [[1,3],[6,9]], newInterval = [2,5]
+Output: [[1,5],[6,9]]
+```
+
+Example 2:
+```
+Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+Output: [[1,2],[3,10],[12,16]]
+Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/insert_interval.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
