@@ -1856,6 +1856,92 @@ Output: false
 
 ---
 
+## 705. [Design HashSet](https://leetcode.com/problems/design-hashset/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Design a HashSet without using any built-in hash table libraries.
+
+To be specific, your design should include these functions:
+
+- add(value): Insert a value into the HashSet. 
+- contains(value) : Return whether the value exists in the HashSet or not.
+- remove(value): Remove a value in the HashSet. If the value does not exist in the HashSet, do nothing.
+
+**Example:**
+```
+MyHashSet hashSet = new MyHashSet();
+hashSet.add(1);         
+hashSet.add(2);         
+hashSet.contains(1);    // returns true
+hashSet.contains(3);    // returns false (not found)
+hashSet.add(2);          
+hashSet.contains(2);    // returns true
+hashSet.remove(2);          
+hashSet.contains(2);    // returns false (already removed)
+```
+
+**Note:**
+- All values will be in the range of [0, 1000000].
+- The number of operations will be in the range of [1, 10000].
+- Please do not use the built-in HashSet library.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/design_hashset.rb)
+</details>
+
+---
+
+## 794. [Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+A Tic-Tac-Toe board is given as a string array board. Return True if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.
+
+The board is a 3 x 3 array, and consists of characters " ", "X", and "O".  The " " character represents an empty square.
+
+Here are the rules of Tic-Tac-Toe:
+- Players take turns placing characters into empty squares (" ").
+- The first player always places "X" characters, while the second player always places "O" characters.
+- "X" and "O" characters are always placed into empty squares, never filled ones.
+- The game ends when there are 3 of the same (non-empty) character filling any row, column, or diagonal.
+- The game also ends if all squares are non-empty.
+- No more moves can be played if the game is over.
+
+**Example 1:**
+```
+Input: board = ["O  ", "   ", "   "]
+Output: false
+Explanation: The first player always plays "X".
+```
+
+**Example 2:**
+```
+Input: board = ["XOX", " X ", "   "]
+Output: false
+Explanation: Players take turns making moves.
+```
+
+**Example 3:**
+```
+Input: board = ["XXX", "   ", "OOO"]
+Output: false
+```
+
+**Example 4:**
+```
+Input: board = ["XOX", "O O", "XOX"]
+Output: true
+```
+
+**Note:**
+- board is a length-3 array of strings, where each string board[i] has length 3.
+- Each board[i][j] is a character in the set {" ", "X", "O"}.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_tic_tac_toe_state.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>

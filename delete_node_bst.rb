@@ -53,5 +53,109 @@
 # @param {Integer} key
 # @return {TreeNode}
 def delete_node(root, key)
-    
+  p "hello"
+  return [] if root.nil?
+  dfs(root, key)
+  root
+end
+
+def dfs(node, key)
+  if node.val == key
+      p "hi"
+      rebalance(node)
+      return
+  end
+  
+  if node.left
+      p "left"
+      dfs(node.left, key)
+  end
+  
+  if node.right
+      p "right"
+      dfs(node.right, key)
+  end
+end
+
+def rebalance(node)
+  if node.right.nil? && node.left.nil?
+      p "we did it"
+      node.val = "null"
+      return
+  end
+  if node.right
+      p "1"
+      if node.right.left.nil? && node.right.right.nil?
+          node.val = node.right.val
+          node.right = nil
+          return
+      end
+  end
+  if node.left
+      p "2"
+      if node.left.left.nil? && node.left.right.nil?
+          node.val = node.left.val
+          node.left = nil
+          return
+      end
+  end
+  if node.right
+      p node.right.val
+      node.val = min_value_node(node.right)
+      node.right = delete_node(node.right, node.val)
+  end
+end
+
+def min_value_node(node)
+  p "world"
+  current = node.dup
+  while (!current.left.nil?)
+      current = current.left
+  end
+  return current.val
+end
+  
+  
+# Definition for a binary tree node.
+# class TreeNode
+#     attr_accessor :val, :left, :right
+#     def initialize(val)
+#         @val = val
+#         @left, @right = nil, nil
+#     end
+# end
+
+# @param {TreeNode} root
+# @param {Integer} key
+# @return {TreeNode}
+def delete_node(root, key)
+  if root.nil?
+      return nil
+  
+  elsif root.val == key
+      case
+          when root.right.nil?
+          then return root.left
+              
+          when !root.right.nil?
+          then
+              pointer = root.right
+              
+              while !pointer.left.nil?
+                  pointer = pointer.left
+              end
+              
+              root.val = pointer.val
+              
+              root.right = delete_node(root.right,pointer.val)
+              
+              return root
+              
+          end
+          
+  else
+      root.left = delete_node(root.left, key)
+      root.right = delete_node(root.right, key)
+      return root
+  end
 end
