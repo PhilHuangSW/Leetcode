@@ -1805,9 +1805,31 @@ Constraints:
 
 ---
 
+## 58. [Length of Last Word - September 15th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/length-of-last-word/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word (last word means the last appearing word if we loop from left to right) in the string.
+
+If the last word does not exist, return 0.
+
+**Note:** A word is defined as a **maximal substring** consisting of non-space characters only.
+
+**Example:**
+```
+Input: "Hello World"
+Output: 5
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/length_last_word.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
+
 
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
@@ -1818,6 +1840,7 @@ Constraints:
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
+
 
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
