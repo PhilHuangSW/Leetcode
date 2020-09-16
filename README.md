@@ -1942,6 +1942,83 @@ Output: true
 
 ---
 
+## 55. [Jump Game](https://leetcode.com/problems/jump-game/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+Each element in the array represents your maximum jump length at that position.
+
+Determine if you are able to reach the last index.
+
+**Example 1:**
+```
+Input: nums = [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+```
+
+**Example 2:**
+```
+Input: nums = [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
+```
+
+**Constraints:**
+- 1 <= nums.length <= 3 * 10^4
+- 0 <= nums[i][j] <= 10^5
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/jump_game.rb)
+</details>
+
+---
+
+## 1306. [Jump Game III](https://leetcode.com/problems/jump-game-iii/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array of non-negative integers arr, you are initially positioned at start index of the array. When you are at index i, you can jump to i + arr[i] or i - arr[i], check if you can reach to **any** index with value 0.
+
+Notice that you can not jump outside of the array at any time.
+
+**Example 1:**
+```
+Input: arr = [4,2,3,0,3,1,2], start = 5
+Output: true
+Explanation: 
+All possible ways to reach at index 3 with value 0 are: 
+index 5 -> index 4 -> index 1 -> index 3 
+index 5 -> index 6 -> index 4 -> index 1 -> index 3 
+```
+
+**Example 2:**
+```
+Input: arr = [4,2,3,0,3,1,2], start = 0
+Output: true 
+Explanation: 
+One possible way to reach at index 3 with value 0 is: 
+index 0 -> index 4 -> index 1 -> index 3
+```
+
+**Example 3:**
+```
+Input: arr = [3,0,2,1,2], start = 2
+Output: false
+Explanation: There is no way to reach at index 1 with value 0.
+```
+
+**Constraints:**
+- 1 <= arr.length <= 5 * 10^4
+- 0 <= arr[i] < arr.length
+- 0 <= start < arr.length
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/jump_game_iii.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
