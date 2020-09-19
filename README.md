@@ -2142,6 +2142,34 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ---
 
+## 1291. [Sequential Digits - September 19th, 2020 Week 3 Challenge Problem]()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+An integer has *sequential digits* if and only if each digit in the number is one more than the previous digit.
+
+Return a **sorted** list of all the integers in the range [low, high] inclusive that have sequential digits.
+
+**Example 1:**
+```
+Input: low = 100, high = 300
+Output: [123,234]
+```
+
+**Example 2:**
+```
+Input: low = 1000, high = 13000
+Output: [1234,2345,3456,4567,5678,6789,12345]
+```
+
+**Constraints:**
+- 10 <= low <= high <= 10^9
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sequential_digits.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
@@ -2152,3 +2180,15 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 </details>
 
 ---
+
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
+
