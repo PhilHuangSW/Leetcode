@@ -2040,13 +2040,104 @@ Output: 49
 
 ---
 
-## []()
+## 421. [Maximum XOR of Two Numbers in an Array - September 16th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Given a **non-empty** array of numbers, a0, a1, a2, … , an-1, where 0 ≤ ai < 231.
 
+Find the maximum result of ai XOR aj, where 0 ≤ i, j < n.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+Could you do this in O(n) runtime?
+
+**Example:**
+```
+Input: [3, 10, 5, 25, 2, 8]
+Output: 28
+Explanation: The maximum result is 5 ^ 25 = 28.
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/max_xor_two_numbers_array.rb)
+</details>
+
+---
+
+## 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', 
+determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+
+**Example 1:**
+```
+Input: s = "()"
+Output: true
+```
+
+**Example 2:**
+```
+Input: s = "()[]{}"
+Output: true
+```
+
+**Example 3:**
+```
+Input: s = "(]"
+Output: false
+```
+
+**Example 4:**
+```
+Input: s = "([)]"
+Output: false
+```
+
+**Example 5:**
+```
+Input: s = "{[]}"
+Output: true
+```
+
+**Constraints:**
+- 1 <= s.length <= 104
+- s consists of parentheses only '()[]{}'.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_parentheses.rb)
+</details>
+
+---
+
+## 121. [Best Time to Buy and Sell Stock - September 18th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Say you have an array for which the ith element is the price of a given stock on day i.
+
+If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+
+Note that you cannot sell a stock before you buy one.
+
+**Example 1:**
+```
+Input: [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5. Not 7-1 = 6, as selling price needs to be larger than buying price.
+```
+
+**Example 2:**
+```
+Input: [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transaction is done, i.e. max profit = 0.
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
 </details>
 
 ---

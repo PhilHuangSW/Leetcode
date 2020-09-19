@@ -1,12 +1,5 @@
-num = 0
-def test(num)
-  while (num <= 10)
-    
+a = ['a',1,2,'(']
 
-    puts "hi"
-    num += 1
-  end
-end
+p a.pop
 
-
-test(num)
+p a
