@@ -49,6 +49,7 @@ def sequential_digits(low, high)
   ans
 end
 
+# helper function to build sequential numbers based on restraints
 def build_numbers(start, low, max, length)
   ans = ""
   for i in start..(start+length-1)
