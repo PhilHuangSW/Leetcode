@@ -2456,13 +2456,217 @@ Explanation:
 
 ---
 
-## []()
+## 1342. [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Given a non-negative integer num, return the number of steps to reduce it to zero. If the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
 
+**Example 1:**
+```
+Input: num = 14
+Output: 6
+Explanation: 
+Step 1) 14 is even; divide by 2 and obtain 7. 
+Step 2) 7 is odd; subtract 1 and obtain 6.
+Step 3) 6 is even; divide by 2 and obtain 3. 
+Step 4) 3 is odd; subtract 1 and obtain 2. 
+Step 5) 2 is even; divide by 2 and obtain 1. 
+Step 6) 1 is odd; subtract 1 and obtain 0.
+```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+**Example 2:**
+```
+Input: num = 8
+Output: 4
+Explanation: 
+Step 1) 8 is even; divide by 2 and obtain 4. 
+Step 2) 4 is even; divide by 2 and obtain 2. 
+Step 3) 2 is even; divide by 2 and obtain 1. 
+Step 4) 1 is odd; subtract 1 and obtain 0.
+```
+
+**Example 3:**
+```
+Input: num = 123
+Output: 12
+```
+
+**Constraints:**
+- 0 <= num <= 10^6
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/number_steps_reduce_number_to_zero.rb)
+</details>
+
+---
+
+## 179. [Largest Number - September 25th, 2020 Week 4 Challenge Problem](https://leetcode.com/problems/largest-number/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a list of non negative integers, arrange them such that they form the largest number.
+
+**Example 1:**
+```
+Input: [10,2]
+Output: "210"
+```
+
+**Example 2:**
+```
+Input: [3,30,34,5,9]
+Output: "9534330"
+```
+
+**Note:** The result may be very large, so you need to return a string instead of an integer.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_number.rb)
+</details>
+
+---
+
+## 495. [Teemo Attacking - September 26th, 2020 Week 4 Challenge Problem](https://leetcode.com/problems/teemo-attacking/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+In LOL world, there is a hero called Teemo and his attacking can make his enemy Ashe be in poisoned condition. Now, given the Teemo's attacking **ascending** time series towards Ashe and the poisoning time duration per Teemo's attacking, you need to output the total time that Ashe is in poisoned condition.
+
+You may assume that Teemo attacks at the very beginning of a specific time point, and makes Ashe be in poisoned condition immediately.
+
+**Example 1:**
+```
+Input: [1,4], 2
+Output: 4
+Explanation: At time point 1, Teemo starts attacking Ashe and makes Ashe be poisoned immediately. 
+This poisoned status will last 2 seconds until the end of time point 2. 
+And at time point 4, Teemo attacks Ashe again, and causes Ashe to be in poisoned status for another 2 seconds. 
+So you finally need to output 4.
+```
+
+**Example 2:**
+```
+Input: [1,2], 2
+Output: 3
+Explanation: At time point 1, Teemo starts attacking Ashe and makes Ashe be poisoned. 
+This poisoned status will last 2 seconds until the end of time point 2. 
+However, at the beginning of time point 2, Teemo attacks Ashe again who is already in poisoned status. 
+Since the poisoned status won't add up together, though the second poisoning attack will still work at time point 2, it will stop at the end of time point 3. 
+So you finally need to output 3.
+```
+
+**Note:**
+1. You may assume the length of given time series array won't exceed 10000.
+2. You may assume the numbers in the Teemo's attacking time series and his poisoning time duration per attacking are non-negative integers, which won't exceed 10,000,000.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/teemo_attacking.rb)
+</details>
+
+---
+
+## 399. [Evaluate Division - September 27th, 2020 Week 4 Challenge Problem](https://leetcode.com/problems/evaluate-division/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+You are given equations in the format A / B = k, where A and B are variables represented as strings, and k is a real number (floating-point number). Given some queries, return the answers. If the answer does not exist, return -1.0.
+
+The input is always valid. You may assume that evaluating the queries will result in no division by zero and there is no contradiction.
+
+**Example 1:**
+```
+Input: equations = [["a","b"],["b","c"]], values = [2.0,3.0], queries = [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]
+Output: [6.00000,0.50000,-1.00000,1.00000,-1.00000]
+Explanation: 
+Given: a / b = 2.0, b / c = 3.0
+queries are: a / c = ?, b / a = ?, a / e = ?, a / a = ?, x / x = ?
+return: [6.0, 0.5, -1.0, 1.0, -1.0 ]
+```
+
+**Example 2:**
+```
+Input: equations = [["a","b"],["b","c"],["bc","cd"]], values = [1.5,2.5,5.0], queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
+Output: [3.75000,0.40000,5.00000,0.20000]
+```
+
+**Example 3:**
+```
+Input: equations = [["a","b"]], values = [0.5], queries = [["a","b"],["b","a"],["a","c"],["x","y"]]
+Output: [0.50000,2.00000,-1.00000,-1.00000]
+```
+
+**Constraints:**
+- 1 <= equations.length <= 20
+- equations[i].length == 2
+- 1 <= equations[i][0], equations[i][1] <= 5
+- values.length == equations.length
+- 0.0 < values[i] <= 20.0
+- 1 <= queries.length <= 20
+- queries[i].length == 2
+- 1 <= queries[i][0], queries[i][1] <= 5
+- equations[i][0], equations[i][1], queries[i][0], queries[i][1] consist of lower case English letters and digits.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/evaluate_division.rb)
+</details>
+
+---
+
+## 713. [Subarray Product Less Than K - September 28th, 2020 Week 4 Challenge Problem](https://leetcode.com/problems/subarray-product-less-than-k/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+You're are given an array of positive integers nums.
+
+Count and print the number of (contiguous) subarrays where the product of all the elements in the subarray is less than k.
+
+**Example 1:**
+```
+Input: nums = [10, 5, 2, 6], k = 100
+Output: 8
+Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6].
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
+```
+
+**Note:**
+- 0 < nums.length <= 50000.
+- 0 < nums[i] < 1000.
+- 0 <= k < 10^6.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/subarray_product_less_than_k.rb)
+</details>
+
+---
+
+## 139. [Word Break - September 29th, 2020 Week 5 Challenge Problem](https://leetcode.com/problems/word-break/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a **non-empty** string s and a dictionary wordDict containing a list of **non-empty** words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+
+**Note:**
+- The same word in the dictionary may be reused multiple times in the segmentation.
+- You may assume the dictionary does not contain duplicate words.
+
+**Example 1:**
+```
+Input: s = "leetcode", wordDict = ["leet", "code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+```
+
+**Example 2:**
+```
+Input: s = "applepenapple", wordDict = ["apple", "pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+             Note that you are allowed to reuse a dictionary word.
+```
+
+**Example 3:**
+```
+Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+Output: false
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/word_break.rb)
 </details>
 
 ---
@@ -2477,5 +2681,17 @@ Explanation:
 </details>
 
 ---
+
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
+
 
 
