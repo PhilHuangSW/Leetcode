@@ -2671,13 +2671,185 @@ Output: false
 
 ---
 
-## []()
+## 41. [First Missing Positive - September 30th, 2020 Week 5 Challenge Problem](https://leetcode.com/problems/first-missing-positive/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Given an unsorted integer array, find the smallest missing positive integer.
+
+**Example 1:**
+```
+Input: [1,2,0]
+Output: 3
+```
+
+**Example 2:**
+```
+Input: [3,4,-1,1]
+Output: 2
+```
+
+**Example 3:**
+```
+Input: [7,8,9,11,12]
+Output: 1
+```
+
+**Follow up:**
+Your algorithm should run in O(n) time and uses constant extra space.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/first_missing_positive.rb)
+</details>
+
+---
+
+## 933. [Number of Recent Calls - October 1st, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/number-of-recent-calls/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+You have a RecentCounter class which counts the number of recent requests within a certain time frame.
+
+Implement the RecentCounter class:
+
+- RecentCounter() Initializes the counter with zero recent requests.
+- int ping(int t) Adds a new request at time t, where t represents some time in milliseconds, and returns the number of requests that has happened in the past 3000 milliseconds (including the new request). Specifically, return the number of requests that have happened in the inclusive range [t - 3000, t].
+
+It is **guaranteed** that every call to ping uses a strictly larger value of t than the previous call.
 
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+**Example 1:**
+```
+Input
+["RecentCounter", "ping", "ping", "ping", "ping"]
+[[], [1], [100], [3001], [3002]]
+Output
+[null, 1, 2, 3, 3]
+Explanation
+RecentCounter recentCounter = new RecentCounter();
+recentCounter.ping(1);     // requests = [1], range is [-2999,1], return 1
+recentCounter.ping(100);   // requests = [1, 100], range is [-2900,100], return 2
+recentCounter.ping(3001);  // requests = [1, 100, 3001], range is [1,3001], return 3
+recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002], range is [2,3002], return 3
+```
+
+**Constraints:**
+- 1 <= t <= 104
+- Each test case will call ping with **strictly increasing** values of t.
+- At most 104 calls will be made to ping.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/number_recent_calls.rb)
+</details>
+
+---
+
+## 39. [Combination Sum - October 2nd, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/combination-sum/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array of **distinct** integers candidates and a target integer target, return *a list of all* **unique combinations** *of candidates where the chosen numbers sum* to target. You may return the combinations in any order.
+
+The **same** number may be chosen from candidates an **unlimited number of times**. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
+
+**Example 1:**
+```
+Input: candidates = [2,3,6,7], target = 7
+Output: [[2,2,3],[7]]
+Explanation:
+2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.
+7 is a candidate, and 7 = 7.
+These are the only two combinations.
+```
+
+**Example 2:**
+```
+Input: candidates = [2,3,5], target = 8
+Output: [[2,2,2,2],[2,3,3],[3,5]]
+```
+
+**Example 3:**
+```
+Input: candidates = [2], target = 1
+Output: []
+```
+
+**Example 4:**
+```
+Input: candidates = [1], target = 1
+Output: [[1]]
+```
+
+**Example 5:**
+```
+Input: candidates = [1], target = 2
+Output: [[1,1]]
+```
+
+**Constraints:**
+- 1 <= candidates.length <= 30
+- 1 <= candidates[i] <= 200
+- All elements of candidates are **distinct**.
+- 1 <= target <= 500
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/combination_sum.rb)
+</details>
+
+---
+
+## 29. [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given two integers dividend and divisor, divide two integers without using multiplication, division and mod operator.
+
+Return the quotient after dividing dividend by divisor.
+
+The integer division should truncate toward zero, which means losing its fractional part. For example, truncate(8.345) = 8 and truncate(-2.7335) = -2.
+
+**Example 1:**
+```
+Input: dividend = 10, divisor = 3
+Output: 3
+Explanation: 10/3 = truncate(3.33333..) = 3.
+```
+
+**Example 2:**
+```
+Input: dividend = 7, divisor = -3
+Output: -2
+Explanation: 7/-3 = truncate(-2.33333..) = -2.
+```
+
+Note:
+- Both dividend and divisor will be 32-bit signed integers.
+- The divisor will never be 0.
+- Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function **returns 231 − 1 when the division result overflows**.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/divide_two_integers.rb)
+</details>
+
+---
+
+## 107. [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a binary tree, return the *bottom-up level order* traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+
+For example:
+Given binary tree [3,9,20,null,null,15,7],
+    3
+   / \
+  9  20
+    /  \
+   15   7
+return its bottom-up level order traversal as:
+[
+  [15,7],
+  [9,20],
+  [3]
+]
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/binary_tree_level_order_traversal_ii.rb)
 </details>
 
 ---
@@ -2693,5 +2865,15 @@ Output: false
 
 ---
 
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
 
 
