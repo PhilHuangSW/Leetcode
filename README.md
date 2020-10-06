@@ -2854,13 +2854,227 @@ return its bottom-up level order traversal as:
 
 ---
 
-## []()
+## 1288. [Remove Covered Intervals - October 4th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/remove-covered-intervals/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Given a list of intervals, remove all intervals that are covered by another interval in the list.
 
+Interval [a,b) is covered by interval [c,d) if and only if c <= a and b <= d.
+
+After doing so, return the number of remaining intervals.
+
+**Example 1:**
+```
+Input: intervals = [[1,4],[3,6],[2,8]]
+Output: 2
+Explanation: Interval [3,6] is covered by [2,8], therefore it is removed.
+```
+
+**Example 2:**
+```
+Input: intervals = [[1,4],[2,3]]
+Output: 1
+```
+
+**Example 3:**
+```
+Input: intervals = [[0,10],[5,12]]
+Output: 2
+```
+
+**Example 4:**
+```
+Input: intervals = [[3,10],[4,10],[5,11]]
+Output: 2
+```
+
+**Example 5:**
+```
+Input: intervals = [[1,2],[1,4],[3,4]]
+Output: 1
+```
+
+**Constraints:**
+- 1 <= intervals.length <= 1000
+- intervals[i].length == 2
+- 0 <= intervals[i][0] < intervals[i][1] <= 10^5
+- All the intervals are **unique**.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_covered_intervals.rb)
+</details>
+
+---
+
+## 1009. [Complement of Base 10 Integer - October 5th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/complement-of-base-10-integer/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Every non-negative integer N has a binary representation.  For example, 5 can be represented as "101" in binary, 11 as "1011" in binary, and so on.  Note that except for N = 0, there are no leading zeroes in any binary representation.
+
+The *complement* of a binary representation is the number in binary you get when changing every 1 to a 0 and 0 to a 1.  For example, the complement of "101" in binary is "010" in binary.
+
+For a given number N in base-10, return the complement of it's binary representation as a base-10 integer.
+
+**Example 1:**
+```
+Input: 5
+Output: 2
+Explanation: 5 is "101" in binary, with complement "010" in binary, which is 2 in base-10.
+```
+
+**Example 2:**
+```
+Input: 7
+Output: 0
+Explanation: 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
+```
+
+**Example 3:**
+```
+Input: 10
+Output: 5
+Explanation: 10 is "1010" in binary, with complement "0101" in binary, which is 5 in base-10.
+```
+
+**Note:**
+- 0 <= N < 10^9
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/complement_base_10_integer.rb)
+</details>
+
+---
+
+## 125. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+**Note:** For the purpose of this problem, we define empty string as valid palindrome.
+
+**Example 1:**
+```
+Input: "A man, a plan, a canal: Panama"
+Output: true
+```
+
+**Example 2:**
+```
+Input: "race a car"
+Output: false
+```
+
+**Constraints:**
+- s consists only of printable ASCII characters.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_palindrome.rb)
+</details>
+
+---
+
+## 409. [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string s which consists of lowercase or uppercase letters, return *the length of the* **longest palindrome** that can be built with those letters.
+
+Letters are **case sensitive**, for example, "Aa" is not considered a palindrome here.
+
+**Example 1:**
+```
+Input: s = "abccccdd"
+Output: 7
+Explanation:
+One longest palindrome that can be built is "dccaccd", whose length is 7.
+```
+
+**Example 2:**
+```
+Input: s = "a"
+Output: 1
+```
+
+**Example 3:**
+```
+Input: s = "bb"
+Output: 2
+```
+
+**Constraints:**
+- 1 <= s.length <= 2000
+- s consits of lower-case and/or upper-case English letters only.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_palindrome.rb)
+</details>
+
+---
+
+## 647. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string, your task is to count how many palindromic substrings in this string.
+
+The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.
+
+**Example 1:**
+```
+Input: "abc"
+Output: 3
+Explanation: Three palindromic strings: "a", "b", "c".
+```
+
+**Example 2:**
+```
+Input: "aaa"
+Output: 6
+Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+```
+
+**Note:**
+- The input string length won't exceed 1000.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
+
+## 701. [Insert Into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+You are given the root node of a binary search tree (BST) and a value to insert into the tree. Return *the root node of the BST after the insertion*. It is **guaranteed** that the new value does not exist in the original BST.
+
+Notice that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return **any of them.**
+
+**Example 1:**
+```
+Input: root = [4,2,7,1,3], val = 5
+Output: [4,2,7,1,3,5]
+Explanation: Another accepted tree is:
+```
+
+**Example 2:**
+```
+Input: root = [40,20,60,10,30,50,70], val = 25
+Output: [40,20,60,10,30,50,70,null,null,25]
+```
+
+**Example 3:**
+```
+Input: root = [4,2,7,1,3,null,null,null,null,null,null], val = 5
+Output: [4,2,7,1,3,5]
+```
+
+**Constraints:**
+- The number of nodes in the tree will be in the range [0, 104].
+- -108 <= Node.val <= 108
+- All the values Node.val are **unique**.
+- -108 <= val <= 108
+- It's **guaranteed** that val does not exist in the original BST.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/insert_into_bst.rb)
 </details>
 
 ---
@@ -2876,4 +3090,13 @@ return its bottom-up level order traversal as:
 
 ---
 
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
 
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---

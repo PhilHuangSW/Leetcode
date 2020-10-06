@@ -1,6 +1,6 @@
-a = "abecd"
-b = "abzecd"
+a = "aa"
 
-# p (b.sum - a.sum).chr
+p a << "c"
 
-p a.chars.sort
+a[0] = ''
+p a
