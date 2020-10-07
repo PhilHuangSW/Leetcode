@@ -31,5 +31,9 @@
 # @param {TreeNode} root
 # @return {Integer[][]}
 def level_order_bottom(root)
-   
+  
+end
+
+def lot(root)
+  
 end

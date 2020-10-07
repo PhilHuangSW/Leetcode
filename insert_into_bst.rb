@@ -44,5 +44,28 @@
 # @param {Integer} val
 # @return {TreeNode}
 def insert_into_bst(root, val)
-  
+  if root.nil?
+      root = TreeNode.new(val)
+  end
+  dfs(root, val)
+  root
+end
+
+def dfs(node, val)
+  if val < node.val && node.left == nil
+      new_node = TreeNode.new(val)
+      node.left = new_node
+  elsif val > node.val && node.right == nil
+      new_node = TreeNode.new(val)
+      node.right = new_node
+  end
+  if val < node.val
+      if node.left != nil
+          dfs(node.left, val)
+      end
+  else
+      if node.right != nil
+          dfs(node.right, val)
+      end
+  end
 end
