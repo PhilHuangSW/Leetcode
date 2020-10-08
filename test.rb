@@ -1,6 +1,4 @@
-a = "aa"
+nums = [0,1,2,3,4,5,6,7,8,9,10]
 
-p a << "c"
-
-a[0] = ''
-p aa
+p nums[4..8].length
+p nums
