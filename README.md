@@ -3159,7 +3159,7 @@ rotate 4 steps to the right: 2->0->1->NULL
 
 ---
 
-## 704. [Binary Search - October 8th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/binary-search/)
+## 704. [Binary Search - October 8th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/binary-search/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -3189,7 +3189,7 @@ Explanation: 2 does not exist in nums so return -1
 
 ---
 
-## 449. [Serialize and Deserialize BST - October 9th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/serialize-and-deserialize-bst/)
+## 449. [Serialize and Deserialize BST - October 9th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/serialize-and-deserialize-bst/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -3221,7 +3221,7 @@ Output: []
 
 ---
 
-## 452. [Minimum Number of Arrows to Burst Balloons - October 10th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+## 452. [Minimum Number of Arrows to Burst Balloons - October 10th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -3272,7 +3272,7 @@ Output: 1
 
 ---
 
-## 316. [Remove Duplicate Letters - October 11th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/remove-duplicate-letters/)
+## 316. [Remove Duplicate Letters - October 11th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/remove-duplicate-letters/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -3301,7 +3301,7 @@ Output: "acdb"
 
 ---
 
-## 859. [Buddy Strings - October 12th, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/buddy-strings/)
+## 859. [Buddy Strings - October 12th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/buddy-strings/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -3348,6 +3348,41 @@ Output: false
 - A and B consist of lowercase letters.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buddy_strings.rb)
+</details>
+
+---
+
+## 148. [Sort List - October 13th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/sort-list/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given the head of a linked list, return the list after sorting it in **ascending order**.
+
+**Follow up:** Can you sort the linked list in O(n logn) time and O(1) memory (i.e. constant space)?
+
+**Example 1:**
+```
+Input: head = [4,2,1,3]
+Output: [1,2,3,4]
+```
+
+**Example 2:**
+```
+Input: head = [-1,5,3,4,0]
+Output: [-1,0,3,4,5]
+```
+
+**Example 3:**
+```
+Input: head = []
+Output: []
+```
+
+**Constraints:**
+- The number of nodes in the list is in the range [0, 5 * 104].
+- -105 <= Node.val <= 105
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sort_list.rb)
 </details>
 
 ---
