@@ -3576,6 +3576,46 @@ Output: 2.00000
 
 ---
 
+## 5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string s, return the *longest palindromic substring* in s.
+
+**Example 1:**
+```
+Input: s = "babad"
+Output: "bab"
+Note: "aba" is also a valid answer.
+```
+
+**Example 2:**
+```
+Input: s = "cbbd"
+Output: "bb"
+```
+
+**Example 3:**
+```
+Input: s = "a"
+Output: "a"
+```
+
+**Example 4:**
+```
+Input: s = "ac"
+Output: "a"
+```
+
+**Constraints:**
+- 1 <= s.length <= 1000
+- s consist of only digits and English letters (lower-case and/or upper-case).
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_palindromic_substring.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
