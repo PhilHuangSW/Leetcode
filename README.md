@@ -3387,13 +3387,72 @@ Output: []
 
 ---
 
-## []()
+## 213. [House Robber II - October 14th, 2020 Week 2 Challenge Problem](https://leetcode.com/problems/house-robber-ii/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are **arranged in a circle.** That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have security system connected and **it will automatically contact the police if two adjacent houses were broken into on the same night.**
 
+Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight **without alerting the police.**
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+**Example 1:**
+```
+Input: [2,3,2]
+Output: 3
+Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2), because they are adjacent houses.
+```
+
+**Example 2:**
+```
+Input: [1,2,3,1]
+Output: 4
+Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amount you can rob = 1 + 3 = 4.
+```
+
+**Constraints:**
+- 1 <= nums.length <= 100
+- 0 <= nums[i] <= 1000
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber_2.rb)
+</details>
+
+---
+
+## 189. [Rotate Array - October 15th, 2020 Week 3 Challenge Problem ](https://leetcode.com/problems/rotate-array/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array, rotate the array to the right by *k* steps, where *k* is non-negative.
+
+**Follow up:**
+- Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
+- Could you do it in-place with O(1) extra space?
+
+**Example 1:**
+```
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+```
+
+**Example 2:**
+```
+Input: nums = [-1,-100,3,99], k = 2
+Output: [3,99,-1,-100]
+Explanation: 
+rotate 1 steps to the right: [99,-1,-100,3]
+rotate 2 steps to the right: [3,99,-1,-100]
+```
+
+**Constraints:**
+- 1 <= nums.length <= 2 * 104
+- -231 <= nums[i] <= 231 - 1
+- 0 <= k <= 105
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/rotate_array.rb)
 </details>
 
 ---
@@ -3408,3 +3467,16 @@ Output: []
 </details>
 
 ---
+
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
+
+
