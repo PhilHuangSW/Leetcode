@@ -3616,13 +3616,129 @@ Output: "a"
 
 ---
 
-## []()
+## 74. [Search a 2D Matrix - October 16th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/search-a-2d-matrix/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
+- Integers in each row are sorted from left to right.
+- The first integer of each row is greater than the last integer of the previous row.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+**Example 1:**
+```
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,50]], target = 3
+Output: true
+```
+
+**Example 2:**
+```
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,50]], target = 13
+Output: false
+```
+
+**Example 3:**
+```
+Input: matrix = [], target = 0
+Output: false
+```
+
+**Constraints:**
+- m == matrix.length
+- n == matrix[i].length
+- 0 <= m, n <= 100
+- -104 <= matrix[i][j], target <= 104
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/search_2D_matrix.rb)
+</details>
+
+---
+
+## 820. [Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a list of words, we may encode it by writing a reference string S and a list of indexes A.
+
+For example, if the list of words is ["time", "me", "bell"], we can write it as S = "time#bell#" and indexes = [0, 2, 5].
+
+Then for each index, we will recover the word by reading from the reference string from that index until we reach a "#" character.
+
+What is the length of the shortest reference string S possible that encodes the given words?
+
+**Example:**
+```
+Input: words = ["time", "me", "bell"]
+Output: 10
+Explanation: S = "time#bell#" and indexes = [0, 2, 5].
+```
+
+**Note:**
+- 1 <= words.length <= 2000.
+- 1 <= words[i].length <= 7.
+- Each word has only lowercase letters.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/short_encoding_of_words.rb)
+</details>
+
+---
+
+## 187. [Repeated DNA Sequences - October 17th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/repeated-dna-sequences/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+All DNA is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T', for example: "ACGAATTCCG". When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
+
+Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
+
+**Example 1:**
+```
+Input: s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+Output: ["AAAAACCCCC","CCCCCAAAAA"]
+```
+
+**Example 2:**
+```
+Input: s = "AAAAAAAAAAAAA"
+Output: ["AAAAAAAAAA"]
+```
+
+**Constraints:**
+- 0 <= s.length <= 105
+- s[i] is 'A', 'C', 'G', or 'T'.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/repeated_dna_sequences.rb)
+</details>
+
+---
+
+## 14. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+**Example 1:**
+```
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+```
+
+**Example 2:**
+```
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
+
+**Constraints:**
+- 0 <= strs.length <= 200
+- 0 <= strs[i].length <= 200
+- strs[i] consists of only lower-case English letters.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_common_prefix.rb)
 </details>
 
 ---
@@ -3637,5 +3753,18 @@ Output: "a"
 </details>
 
 ---
+
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
+
+
 
 

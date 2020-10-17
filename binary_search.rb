@@ -25,35 +25,51 @@
 # @param {Integer[]} nums
 # @param {Integer} target
 # @return {Integer}
+# def search(nums, target)
+#   return -1 if nums.length == 0
+#   index = nums.length/2
+#   half = nums.length/2
+#   while true
+#     return -1 if nums.length == 0
+#     if nums.length == 1
+#       if nums[0] == target
+#         return index
+#       else
+#         return -1
+#       end
+#     end
+#     if nums[half] == target
+#       return index
+#     elsif nums[half] > target
+#       nums = nums[0...half]
+#       half = nums.length/2
+#       if nums.length%2 == 1
+#         index -= (half+1)
+#       else
+#         index -= half
+#       end
+#     elsif nums[half] < target
+#       nums = nums[(half+1)...nums.length]
+#       half = nums.length/2
+#       index += (half+1)
+#     end
+#   end
+# end
+
 def search(nums, target)
-  return -1 if nums.length == 0
-  index = nums.length/2
-  half = nums.length/2
-  while true
-    return -1 if nums.length == 0
-    if nums.length == 1
-      if nums[0] == target
-        return index
-      else
-        return -1
-      end
+  left, right = 0, nums.length-1
+  while left <= right
+    pivot = left + (right - left) / 2
+    if nums[pivot] == target
+      return pivot
     end
-    if nums[half] == target
-      return index
-    elsif nums[half] > target
-      nums = nums[0...half]
-      half = nums.length/2
-      if nums.length%2 == 1
-        index -= (half+1)
-      else
-        index -= half
-      end
-    elsif nums[half] < target
-      nums = nums[(half+1)...nums.length]
-      half = nums.length/2
-      index += (half+1)
+    if target < nums[pivot]
+      right = pivot - 1
+    else
+      left = pivot + 1
     end
   end
+  return -1
 end
 
 nums1 = [-1,0,3,5,9,12]
