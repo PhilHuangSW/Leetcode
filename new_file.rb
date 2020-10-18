@@ -3,3 +3,4 @@
 
 
 #################### SOLUTION ####################
+require 'rspec/autorun'

@@ -3743,7 +3743,7 @@ Explanation: There is no common prefix among the input strings.
 
 ---
 
-## 188. [Best Time to Buy and Sell Stock IV - October 18th, 2020 Week 3 Challenge Problem](Best Time to Buy and Sell Stock IV)
+## 188. [Best Time to Buy and Sell Stock IV - October 18th, 2020 Week 3 Challenge Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -3777,13 +3777,66 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 ---
 
-## []()
+## 1108. [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
+A *defanged IP address* replaces every period "." with "[.]".
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+**Example 1:**
+```
+Input: address = "1.1.1.1"
+Output: "1[.]1[.]1[.]1"
+```
+
+**Example 2:**
+```
+Input: address = "255.100.50.0"
+Output: "255[.]100[.]50[.]0"
+```
+
+**Constraints:**
+- The given address is a valid IPv4 address.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/defanging_ip_address.rb)
+</details>
+
+---
+
+## 1295. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array nums of integers, return how many of them contain an **even number** of digits.
+
+**Example 1:**
+```
+Input: nums = [12,345,2,6,7896]
+Output: 2
+Explanation: 
+12 contains 2 digits (even number of digits). 
+345 contains 3 digits (odd number of digits). 
+2 contains 1 digit (odd number of digits). 
+6 contains 1 digit (odd number of digits). 
+7896 contains 4 digits (even number of digits). 
+Therefore only 12 and 7896 contain an even number of digits.
+```
+
+**Example 2:**
+```
+Input: nums = [555,901,482,1771]
+Output: 1 
+Explanation: 
+Only 1771 contains an even number of digits.
+```
+
+**Constraints:**
+- 1 <= nums.length <= 500
+- 1 <= nums[i] <= 10^5
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/find_numbers_with_even_number_of_digits.rb)
 </details>
 
 ---
