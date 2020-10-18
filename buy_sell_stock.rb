@@ -64,6 +64,7 @@ def max_profit(prices)
 	profit = 0
 	lowest = 999999999999
 	for i in 0...prices.length
+		puts "prices[#{i}]: #{prices[i]} -- lowest: #{lowest} -- p-l-profit: #{prices[i]-lowest} -- profit: #{profit}"
 		if prices[i] < lowest
 			lowest = prices[i]
 		elsif (prices[i] - lowest > profit)
