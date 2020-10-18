@@ -3841,6 +3841,112 @@ Only 1771 contains an even number of digits.
 
 ---
 
+## 1528. [Shuffle String](https://leetcode.com/problems/shuffle-string/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a string s and an integer array indices of the **same length**.
+
+The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+
+Return the *shuffled string*.
+
+**Example 1:**
+```
+Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
+Output: "leetcode"
+Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
+```
+
+**Example 2:**
+```
+Input: s = "abc", indices = [0,1,2]
+Output: "abc"
+Explanation: After shuffling, each character remains in its position.
+```
+
+**Example 3:**
+```
+Input: s = "aiohn", indices = [3,1,4,2,0]
+Output: "nihao"
+```
+
+**Example 4:**
+```
+Input: s = "aaiougrt", indices = [4,0,2,6,7,3,1,5]
+Output: "arigatou"
+```
+
+**Example 5:**
+```
+Input: s = "art", indices = [1,0,2]
+Output: "rat"
+```
+
+**Constraints:**
+- s.length == indices.length == n
+- 1 <= n <= 100
+- s contains only lower-case English letters.
+- 0 <= indices[i] < n
+- All values of indices are unique (i.e. indices is a permutation of the integers from 0 to n - 1).
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/shuffle_string.rb)
+</details>
+
+---
+
+## 1592. [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+You are given a string text of words that are placed among some number of spaces. Each word consists of one or more lowercase English letters and are separated by at least one space. It's guaranteed that text **contains at least one word**.
+
+Rearrange the spaces so that there is an **equal** number of spaces between every pair of adjacent words and that number is **maximized**. If you cannot redistribute all the spaces equally, place the **extra spaces at the end**, meaning the returned string should be the same length as text.
+
+Return *the string after rearranging the spaces*.
+
+**Example 1:**
+```
+Input: text = "  this   is  a sentence "
+Output: "this   is   a   sentence"
+Explanation: There are a total of 9 spaces and 4 words. We can evenly divide the 9 spaces between the words: 9 / (4-1) = 3 spaces.
+```
+
+**Example 2:**
+```
+Input: text = " practice   makes   perfect"
+Output: "practice   makes   perfect "
+Explanation: There are a total of 7 spaces and 3 words. 7 / (3-1) = 3 spaces plus 1 extra space. We place this extra space at the end of the string.
+```
+
+**Example 3:**
+```
+Input: text = "hello   world"
+Output: "hello   world"
+```
+
+**Example 4:**
+```
+Input: text = "  walks  udp package   into  bar a"
+Output: "walks  udp  package  into  bar  a "
+```
+
+**Example 5:**
+```
+Input: text = "a"
+Output: "a"
+```
+
+**Constraints:**
+- 1 <= text.length <= 100
+- text consists of lowercase English letters and ' '.
+- text contains at least one word.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/rearrange_spaces_between_words.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
