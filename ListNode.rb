@@ -29,3 +29,8 @@ class ListNode
     arr
   end
 end
+
+# example of format
+# head = ListNode.new(0)
+# head1 = [4,2,1,3]
+# head.convert_ll_to_arr(sort_list(head.convert_arr_to_ll(head1)))

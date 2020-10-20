@@ -3985,6 +3985,161 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 
 ---
 
+## Top Interview Questions (Easy) [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a sorted array *nums*, remove the duplicates **in-place** such that each element appears only once and returns the new length.
+
+Do not allocate extra space for another array, you must do this by **modifying the input array** **in-place** with O(1) extra memory.
+
+**Clarification**:
+
+Confused why the returned value is an integer but your answer is an array?
+
+Note that the input array is passed in by **reference**, which means a modification to the input array will be known to the caller as well.
+
+Internally you can think of this:
+
+```
+// nums is passed in by reference. (i.e., without making a copy)
+int len = removeDuplicates(nums);
+
+// any modification to nums in your function would be known by the caller.
+// using the length returned by your function, it prints the first len elements.
+for (int i = 0; i < len; i++) {
+    print(nums[i]);
+}
+```
+
+**Example 1:**
+```
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2]
+Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+```
+
+**Example 2:**
+```
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4]
+Explanation: Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively. It doesn't matter what values are set beyond the returned length.
+```
+
+**Constraints:**
+- 0 <= nums.length <= 3 * 104
+- -104 <= nums[i] <= 104
+- nums is sorted in ascending order.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_from_sorted_array.rb)
+</details>
+
+---
+
+## Top Interview Questions (Easy) [Single Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a **non-empty** array of integers nums, every element appears *twice* except for one. Find that single one.
+
+**Follow up:** Could you implement a solution with a linear runtime complexity and without using extra memory?
+
+**Example 1:**
+```
+Input: nums = [2,2,1]
+Output: 1
+```
+
+**Example 2:**
+```
+Input: nums = [4,1,2,1,2]
+Output: 4
+```
+
+**Example 3:**
+```
+Input: nums = [1]
+Output: 1
+```
+
+**Constraints:**
+- 1 <= nums.length <= 3 * 104
+- -3 * 104 <= nums[i] <= 3 * 104
+- Each element in the array appears twice except for one element which appears only once.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/single_number.rb)
+</details>
+
+---
+
+## 133. [Clone Graph](https://leetcode.com/problems/clone-graph/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a reference of a node in a **connected** undirected graph.
+
+Return a **deep copy** (clone) of the graph.
+
+Each node in the graph contains a val (int) and a list (List[Node]) of its neighbors.
+
+```
+class Node {
+    public int val;
+    public List<Node> neighbors;
+}
+```
+
+**Test case format:**
+
+For simplicity sake, each node's value is the same as the node's index (1-indexed). For example, the first node with val = 1, the second node with val = 2, and so on. The graph is represented in the test case using an adjacency list.
+
+**Adjacency list** is a collection of unordered **lists** used to represent a finite graph. Each list describes the set of neighbors of a node in the graph.
+
+The given node will always be the first node with val = 1. You must return the **copy of the given node** as a reference to the cloned graph.
+
+**Example 1:**
+```
+Input: adjList = [[2,4],[1,3],[2,4],[1,3]]
+Output: [[2,4],[1,3],[2,4],[1,3]]
+Explanation: There are 4 nodes in the graph.
+1st node (val = 1)'s neighbors are 2nd node (val = 2) and 4th node (val = 4).
+2nd node (val = 2)'s neighbors are 1st node (val = 1) and 3rd node (val = 3).
+3rd node (val = 3)'s neighbors are 2nd node (val = 2) and 4th node (val = 4).
+4th node (val = 4)'s neighbors are 1st node (val = 1) and 3rd node (val = 3).
+```
+
+**Example 2:**
+```
+Input: adjList = [[]]
+Output: [[]]
+Explanation: Note that the input contains one empty list. The graph consists of only one node with val = 1 and it does not have any neighbors.
+```
+
+**Example 3:**
+```
+Input: adjList = []
+Output: []
+Explanation: This an empty graph, it does not have any nodes.
+```
+
+**Example 4:**
+```
+Input: adjList = [[2],[1]]
+Output: [[2],[1]]
+```
+
+**Constraints:**
+- 1 <= Node.val <= 100
+- Node.val is unique for each node.
+- Number of Nodes will not exceed 100.
+- There is no repeated edges and no self-loops in the graph.
+- The Graph is connected and all nodes can be visited starting from the given node.
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/clone_graph.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
