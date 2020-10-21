@@ -4188,6 +4188,45 @@ Explanation: The -2 and -1 are moving left, while the 1 and 2 are moving right. 
 
 ---
 
+## Top Interview Questions (Easy) [Plus One](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/559/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a **non-empty** array of digits representing a non-negative integer, increment one to the integer.
+
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contains a single digit.
+
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+**Example 1:**
+```
+Input: digits = [1,2,3]
+Output: [1,2,4]
+Explanation: The array represents the integer 123.
+```
+
+**Example 2:**
+```
+Input: digits = [4,3,2,1]
+Output: [4,3,2,2]
+Explanation: The array represents the integer 4321.
+```
+
+**Example 3:**
+```
+Input: digits = [0]
+Output: [1]
+```
+
+**Constraints:**
+- 1 <= digits.length <= 100
+- 0 <= digits[i] <= 9
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>

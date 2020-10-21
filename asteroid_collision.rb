@@ -59,6 +59,8 @@ def asteroid_collision(asteroids)
       # 10 vs -15 --> -15
       # replace 10 with -15, delete node that is -15 before, i.e. curr_idx
       # when we do this, make prev -= 1 and curr -= 1 to check the stuff before
+      # i.e. [20,2,10,-15] prev_idx = 2, curr_idx = 3, we turn 10 into -15, then delete -15
+      # at curr_idx --> [20,2,-15] so now prev_idx = 1, curr_idx = 2 to check for further collisions
       elsif asteroids[prev_idx] < asteroids[curr_idx].abs
         asteroids[prev_idx] = asteroids[curr_idx]
         asteroids.delete_at(curr_idx)
