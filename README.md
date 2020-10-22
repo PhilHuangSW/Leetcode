@@ -4227,6 +4227,216 @@ Output: [1]
 
 ---
 
+## Top Interview Questions (Easy) [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array of integers nums and an integer target, return *indices of the two numbers such that they add up to target*.
+
+You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
+
+You can return the answer in any order.
+
+**Example 1:**
+```
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+```
+
+**Example 2:**
+```
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+```
+
+**Example 3:**
+```
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
+
+**Constraints:**
+- 2 <= nums.length <= 105
+- -109 <= nums[i] <= 109
+- -109 <= target <= 109
+**Only one valid answer exists.**
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/two_sum.rb)
+</details>
+
+---
+
+## Top Interview Questions (Easy) [Contains Duplicate](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an array of integers, find if the array contains any duplicates.
+
+Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+
+**Example 1:**
+```
+Input: [1,2,3,1]
+Output: true
+```
+
+**Example 2:**
+```
+Input: [1,2,3,4]
+Output: false
+```
+
+**Example 3:**
+```
+Input: [1,1,1,3,3,4,3,2,4,2]
+Output: true
+```
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/contains_duplicate.rb)
+</details>
+
+---
+
+## Top Interview Questions (Easy) [Intersection of Two Arrays II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given two arrays, write a function to compute their intersection.
+
+**Example 1:**
+```
+Input: nums1 = [1,2,2,1], nums2 = [2,2]
+Output: [2,2]
+```
+
+**Example 2:**
+```
+Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+Output: [4,9]
+```
+
+**Note:**
+- Each element in the result should appear as many times as it shows in both arrays.
+- The result can be in any order.
+
+**Follow up:**
+- What if the given array is already sorted? How would you optimize your algorithm?
+- What if nums1's size is small compared to nums2's size? Which algorithm is better?
+- What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/intersection_of_two_arrays_ii.rb)
+</details>
+
+---
+
+## Top Interview Questions (Easy) [Reverse Integer](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a 32-bit signed integer, reverse digits of an integer.
+
+**Note:**
+Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+**Example 1:**
+```
+Input: x = 123
+Output: 321
+```
+
+**Example 2:**
+```
+Input: x = -123
+Output: -321
+```
+
+**Example 3:**
+```
+Input: x = 120
+Output: 21
+```
+
+**Example 4:**
+```
+Input: x = 0
+Output: 0
+```
+
+**Constraints:**
+- -231 <= x <= 231 - 1
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/reverse_integer.rb)
+</details>
+
+---
+
+## Top Interview Questions [Easy](First Bad Version)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+
+You are given an API bool isBadVersion(version) which returns whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
+
+**Example 1:**
+```
+Input: n = 5, bad = 4
+Output: 4
+Explanation:
+call isBadVersion(3) -> false
+call isBadVersion(5) -> true
+call isBadVersion(4) -> true
+Then 4 is the first bad version.
+```
+
+**Example 2:**
+```
+Input: n = 1, bad = 1
+Output: 1
+```
+
+**Constraints:**
+- 1 <= bad <= n <= 231 - 1
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/first_bad_version.rb)
+</details>
+
+---
+
+## 111. [Minimum Depth of Binary Tree - October 22nd, 2020, Week 4 Challenge Problem](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+**Note:** A leaf is a node with no children.
+
+**Example 1:**
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: 2
+```
+
+**Example 2:**
+```
+Input: root = [2,null,3,null,4,null,5,null,6]
+Output: 5
+```
+
+**Constraints:**
+- The number of nodes in the tree is in the range [0, 105].
+- -1000 <= Node.val <= 1000
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_depth_of_binary_tree.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
