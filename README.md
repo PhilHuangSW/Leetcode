@@ -4371,7 +4371,7 @@ Output: 0
 
 ---
 
-## Top Interview Questions [Easy](First Bad Version)
+## Top Interview Questions (Easy) [First Bad Version](https://leetcode.com/explore/featured/card/top-interview-questions-easy/96/sorting-and-searching/774/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4628,6 +4628,30 @@ Output: 1
 - At least one seat is occupied.
 
 ### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/maximize_distance_to_closest_person.rb)
+</details>
+
+---
+
+## 300. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given an unsorted array of integers, find the length of longest increasing subsequence.
+
+**Example:**
+```
+Input: [10,9,2,5,3,7,101,18]
+Output: 4 
+Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4. 
+```
+
+**Note:**
+- There may be more than one LIS combination, it is only necessary for you to return the length.
+- Your algorithm should run in O(n2) complexity.
+
+**Follow up:** Could you improve it to O(n log n) time complexity?
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_increasing_subsequence.rb)
 </details>
 
 ---

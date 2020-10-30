@@ -1,5 +1,8 @@
-s = "0[a]3[bc]"
+# a = [10,22,9,33,21,50,41,60,80]
 
-for i in 0...s.length
-  p /[0-9]/.match(s[i])
-end
+# dp[0] = a[]
+
+a = Array.new(5){Float::INFINITY}
+
+p a
+
