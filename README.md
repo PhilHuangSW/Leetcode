@@ -1,4 +1,4 @@
-# [Leet Code](https://www.leetcode.com) Problems written in Ruby.
+# [Leet Code](https://www.leetcode.com) Problems written in Ruby/JavaScript/Python
 
 ## 1290. [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 <details>
@@ -44,7 +44,7 @@ Constraints:
 - Number of nodes will not exceed 30.
 - Each node's value is either 0 or 1.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Convert_Binary_Number_Linked_List_to_Integer.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/Convert_Binary_Number_Linked_List_to_Integer.rb)
 </details>
 
 ---
@@ -68,7 +68,7 @@ Note:
 1. 1 <= A.length <= 5000
 2. 0 <= A[i] <= 5000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Sort_Array_by_Parity.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/Sort_Array_by_Parity.rb)
 </details>
 
 ---
@@ -91,7 +91,7 @@ Example 2:
 Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Reorder_Linked_List.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/Reorder_Linked_List.rb)
 </details>
 
 ---
@@ -120,7 +120,7 @@ Constraints:
 - 1 <= arr.length <= 1000
 - 1 <= arr[i] <= 1000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/Three_Consecutive_Odds.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/Three_Consecutive_Odds.rb)
 </details>
 
 ---
@@ -155,7 +155,7 @@ Output: 9
 Constraints:
 - 1 <= n <= 10^4
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/min_op_make_array_equal.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/min_op_make_array_equal.rb)
 </details>
 
 --- 
@@ -193,7 +193,7 @@ Constraints:
 - All integers in position are distinct.
 - 2 <= m <= position.length
 
-### [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/magnetic_force_between_two_balls.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/magnetic_force_between_two_balls.rb)
 </details>
 
 ---
@@ -231,7 +231,7 @@ Constraints:
 - nums.length == 2n
 - 1 <= nums[i] <= 10^3
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/shuffle_the_array.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/shuffle_the_array.rb)
 </details>
 
 ---
@@ -262,7 +262,7 @@ Note:
 - S and J will consist of letters and have length at most 50.
 - The characters in J are distinct.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/jewels_and_stones.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/jewels_and_stones.rb)
 </details>
 
 --- 
@@ -283,7 +283,7 @@ Example:
 There are two left leaves in the binary tree, with values 9 and 15 respectively. Return 24.
 ```
 
-### [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_left_leaves.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_left_leaves.rb)
 </details>
 
 ---
@@ -314,7 +314,7 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 Note:
 - The number of nodes in the given list will be between 1 and 100.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/middle_linkedlist.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/middle_linkedlist.rb)
 </details>
 
 --- 
@@ -348,7 +348,7 @@ Note:
 - The given node will not be the tail and it will always be a valid node of the linked list.
 - Do not return anything from your function.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_linkedlist.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_linkedlist.rb)
 </details>
 
 ---
@@ -364,7 +364,7 @@ Input:  1->2->6->3->4->5->6, val = 6
 Output: 1->2->3->4->5
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_linkedlist_elements.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_linkedlist_elements.rb)
 </details>
 
 ---
@@ -389,7 +389,7 @@ Output: true
 Follow up:
 Could you do it in O(n) time and O(1) space?
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/palindrome_linkedlist.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/palindrome_linkedlist.rb)
 </details>
 
 ---
@@ -411,7 +411,7 @@ Input: 1->1->2->3->3
 Output: 1->2->3
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_sorted_linkedlist.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_sorted_linkedlist.rb)
 </details>
 
 ---
@@ -427,7 +427,7 @@ Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/merge_two_sorted_lists.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/merge_two_sorted_lists.rb)
 </details>
 
 ---
@@ -456,7 +456,7 @@ Note:
 - 1 <= A[i].length <= 100
 - A[i][j] is a lowercase letter
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/find_common_characters.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/find_common_characters.rb)
 </details>
 
 --- 
@@ -489,7 +489,7 @@ Note:
 - 0 <= B.length <= 200
 - A and B both contain only spaces and lowercase letters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/uncommon_words_two_sentences.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/uncommon_words_two_sentences.rb)
 </details>
 
 ---
@@ -516,7 +516,7 @@ Note:
 - It's guaranteed that the answer is unique, in other words the set of the top k frequent elements is unique.
 - You can return the answer in any order.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/top_k_frequent_elements.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/top_k_frequent_elements.rb)
 </details>
 
 --- 
@@ -552,7 +552,7 @@ Return:
 ]
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/fizz_buzz.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/fizz_buzz.rb)
 </details>
 
 --- 
@@ -576,7 +576,7 @@ Note:
 - S will have length in range [1, 500].
 - S will consist of lowercase English letters ('a' to 'z') only.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/partition_labels.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/partition_labels.rb)
 </details>
 
 --- 
@@ -653,7 +653,7 @@ Constraints:
 - 0 <= row < rows
 - 0 <= col < cols
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/subrectangle_queries.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/subrectangle_queries.rb)
 </details>
 
 ---
@@ -676,7 +676,7 @@ Note:
 - Then length of the input array is in range [1, 10,000].
 - The input array may contain duplicates, so ascending order here means <=.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/shortest_unsorted_continuous_subarray.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/shortest_unsorted_continuous_subarray.rb)
 </details>
 
 ---
@@ -705,7 +705,7 @@ Note:
 - The input array size is in the range of [1, 20000].
 - n is a non-negative integer which won't exceed the input array size.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/can_place_flowers.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/can_place_flowers.rb)
 </details>
 
 ---
@@ -734,7 +734,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
 </details>
 
 ---
@@ -779,7 +779,7 @@ Constraints:
 - 1 <= A[i] <= A.length
 - All integers in A are unique (i.e. A is a permutation of the integers from 1 to A.length).
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/pancake_sorting.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/pancake_sorting.rb)
 </details>
 
 ---
@@ -818,7 +818,7 @@ Output: [3,8,10]
 Constraints:
 - 1 <= n <= 105
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/implement_rand10_using_rand7.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/implement_rand10_using_rand7.rb)
 </details>
 
 ---
@@ -855,7 +855,7 @@ Note:
 - 1 <= A.length <= 20000
 - 1 <= A[i] <= 100000
 
-## [Attempt](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_component_size_common_factor.rb)
+## [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_component_size_common_factor.rb)
 </details>
 
 ---
@@ -881,7 +881,7 @@ Constraints:
 - -10^5 <= nums[i] <= 10^5
 - 0 <= i <= j < nums.length
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/range_sum_query_immutable.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/range_sum_query_immutable.rb)
 </details>
 
 ---
@@ -927,7 +927,7 @@ Another valid answer is [5,2,6,null,4,null,7].
     4   7
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_bst.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_node_bst.rb)
 </details>
 
 ---
@@ -957,7 +957,7 @@ Note:
 - A.length == 4
 - 0 <= A[i] <= 9
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_time_given_digits.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_time_given_digits.rb)
 </details>
 
 ---
@@ -989,7 +989,7 @@ Note:
 - 1 <= arr.length <= 10000
 - 0 <= arr[i] <= 9
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/duplicate_zeros.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/duplicate_zeros.rb)
 </details>
 
 ---
@@ -1019,7 +1019,7 @@ Output: True
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/repeated_substring_pattern.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/repeated_substring_pattern.rb)
 </details>
 
 ---
@@ -1065,7 +1065,7 @@ Constraints:
 - Each tree has at most 5000 nodes.
 - Each node's value is between [-10^5, 10^5].
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/all_elements_bst.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/all_elements_bst.rb)
 </details>
 
 ---
@@ -1099,7 +1099,7 @@ Notes:
 - 1 <= A.length = A[0].length <= 20
 - 0 <= A[i][j] <= 1
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/flipping_image.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/flipping_image.rb)
 </details>
 
 --- 
@@ -1131,7 +1131,7 @@ Merged tree:
 
 Note: The merging process must start from the root nodes of both trees.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/merge_two_binary_trees.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/merge_two_binary_trees.rb)
 </details>
 
 ---
@@ -1181,7 +1181,7 @@ Constraints:
 - The given binary tree will have between 1 and 3000 nodes.
 - Each node's value is between [1, 1000].
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_leaves_given_value.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/delete_leaves_given_value.rb)
 </details>
 
 ---
@@ -1200,7 +1200,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/add_two_numbers.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/add_two_numbers.rb)
 </details>
 
 ---
@@ -1242,7 +1242,7 @@ Constraints:
 - 0 <= s.length <= 5 * 104
 - s consists of English letters, digits, symbols and spaces.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_substring_without_repeating_characters.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_substring_without_repeating_characters.rb)
 </details>
 
 ---
@@ -1281,7 +1281,7 @@ Output: false
 Notes:
 - You may assume pattern contains only lowercase letters, and str contains lowercase letters that may be separated by a single space.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/word_pattern.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/word_pattern.rb)
 </details>
 
 ---
@@ -1323,7 +1323,7 @@ Constraints:
 - 1 <= num <= 10^4
 - num's digits are 6 or 9.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/maximum_69_number.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/maximum_69_number.rb)
 </details>
 
 ---
@@ -1349,7 +1349,7 @@ Note:
 2. node.val is 0 or 1.
 3. The answer will not exceed 2^31 - 1.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_root_leaf_binary_numbers.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_root_leaf_binary_numbers.rb)
 </details>
 
 ---
@@ -1394,7 +1394,7 @@ The root-to-leaf path 4->0 represents the number 40.
 Therefore, sum = 495 + 491 + 40 = 1026.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_root_leaf_numbers.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/sum_root_leaf_numbers.rb)
 </details>
 
 ---
@@ -1436,7 +1436,7 @@ Input:     1         1
 Output: false
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/same_tree.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/same_tree.rb)
 </details>
 
 ---
@@ -1491,7 +1491,7 @@ Note:
 1. Version strings are composed of numeric strings separated by dots . and this numeric strings **may** have leading zeroes.
 2. Version strings do not start or end with dots, and they will not be two consecutive dots.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/compare_version_numbers.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/compare_version_numbers.rb)
 </details>
 
 ---
@@ -1528,7 +1528,7 @@ Note:
 2. -10000 < points[i][0] < 10000
 3. -10000 < points[i][1] < 10000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/k_closest_points_origin.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/k_closest_points_origin.rb)
 </details>
 
 ---
@@ -1562,7 +1562,7 @@ Constraints:
 - You may assume that there are no duplicate edges in the input prerequisites.
 - 1 <= numCourses <= 10^5
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/course_schedule.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/course_schedule.rb)
 </details>
 
 ---
@@ -1592,7 +1592,7 @@ Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 
 Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/bulls_cows.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/bulls_cows.rb)
 </details>
 
 ---
@@ -1617,7 +1617,7 @@ Output: [[1,2],[3,10],[12,16]]
 Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/insert_interval.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/insert_interval.rb)
 </details>
 
 ---
@@ -1641,7 +1641,7 @@ Output: 0
 Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/maximum_product_subarray.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/maximum_product_subarray.rb)
 </details>
 
 ---
@@ -1687,7 +1687,7 @@ Constraints:
 - 1 <= s.length <= 1000
 - s[i] = 'L' or 'R'
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/split_string_balanced_strings.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/split_string_balanced_strings.rb)
 </details>
 
 ---
@@ -1711,7 +1711,7 @@ return 2.
 
 Note: You may assume the string contains only lowercase English letters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/first_unique_character_in_string.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/first_unique_character_in_string.rb)
 </details>
 
 ---
@@ -1742,7 +1742,7 @@ Constraints:
 - 0 <= nums.length <= 100
 - 0 <= nums[i] <= 400
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber.rb)
 </details>
 
 ---
@@ -1769,7 +1769,7 @@ Output: 4
 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amount you can rob = 1 + 3 = 4.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber_2.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber_2.rb)
 </details>
 
 ---
@@ -1800,7 +1800,7 @@ Constraints:
 - 2 <= arr.length <= 1000
 - -10^6 <= arr[i] <= 10^6
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/arithmetic_sequence.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/arithmetic_sequence.rb)
 </details>
 
 ---
@@ -1821,7 +1821,7 @@ Input: "Hello World"
 Output: 5
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/length_last_word.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/length_last_word.rb)
 </details>
 
 ---
@@ -1851,7 +1851,7 @@ Output: false
 2. points[i].length == 2
 3. 0 <= points[i][j] <= 100
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_boomerang.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_boomerang.rb)
 </details>
 
 ---
@@ -1886,7 +1886,7 @@ hashSet.contains(2);    // returns false (already removed)
 - The number of operations will be in the range of [1, 10000].
 - Please do not use the built-in HashSet library.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/design_hashset.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/design_hashset.rb)
 </details>
 
 ---
@@ -1937,7 +1937,7 @@ Output: true
 - board is a length-3 array of strings, where each string board[i] has length 3.
 - Each board[i][j] is a character in the set {" ", "X", "O"}.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_tic_tac_toe_state.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_tic_tac_toe_state.rb)
 </details>
 
 ---
@@ -1970,7 +1970,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 - 1 <= nums.length <= 3 * 10^4
 - 0 <= nums[i][j] <= 10^5
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/jump_game.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/jump_game.rb)
 </details>
 
 ---
@@ -2014,7 +2014,7 @@ Explanation: There is no way to reach at index 1 with value 0.
 - 0 <= arr[i] < arr.length
 - 0 <= start < arr.length
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/jump_game_iii.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/jump_game_iii.rb)
 </details>
 
 ---
@@ -2035,7 +2035,7 @@ Input: [1,8,6,2,5,4,8,3,7]
 Output: 49
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/container_most_water.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/container_most_water.rb)
 </details>
 
 ---
@@ -2057,7 +2057,7 @@ Output: 28
 Explanation: The maximum result is 5 ^ 25 = 28.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/max_xor_two_numbers_array.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/max_xor_two_numbers_array.rb)
 </details>
 
 ---
@@ -2108,7 +2108,7 @@ Output: true
 - 1 <= s.length <= 104
 - s consists of parentheses only '()[]{}'.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_parentheses.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_parentheses.rb)
 </details>
 
 ---
@@ -2137,7 +2137,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/buy_sell_stock.rb)
 </details>
 
 ---
@@ -2165,7 +2165,7 @@ Output: [1234,2345,3456,4567,5678,6789,12345]
 **Constraints:**
 - 10 <= low <= high <= 10^9
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sequential_digits.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/sequential_digits.rb)
 </details>
 
 ---
@@ -2195,7 +2195,7 @@ The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 
 - 0 <= customers[i] <= 1000
 - 0 <= grumpy[i] <= 1
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/grumpy_bookstore_owner.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/grumpy_bookstore_owner.rb)
 </details>
 
 ---
@@ -2245,7 +2245,7 @@ Note that the starting and ending square can be anywhere in the grid.
 **Note:**
 - 1 <= grid.length * grid[0].length <= 20
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/unique_paths_iii.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/unique_paths_iii.rb)
 </details>
 
 ---
@@ -2291,7 +2291,7 @@ Output: true
 4. 0 <= trips[i][1] < trips[i][2] <= 1000
 5. 1 <= capacity <= 100000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/car_pooling.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/car_pooling.rb)
 </details>
 
 ---
@@ -2316,7 +2316,7 @@ Input: [1,1,1,3,3,2,2,2]
 Output: [1,2]
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/majority_element_ii.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/majority_element_ii.rb)
 </details>
 
 ---
@@ -2367,7 +2367,7 @@ You cannot travel back to station 2, as it requires 4 unit of gas but you only h
 Therefore, you can't travel around the circuit once no matter where you start.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/gas_station.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/gas_station.rb)
 </details>
 
 ---
@@ -2406,7 +2406,7 @@ Y A   H R
 P     I
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/zigzag_conversion.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/zigzag_conversion.rb)
 </details>
 
 ---
@@ -2425,7 +2425,7 @@ Input: [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/trapping_rain_water.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/trapping_rain_water.rb)
 </details>
 
 ---
@@ -2451,7 +2451,7 @@ Explanation:
 'e' is the letter that was added.
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/find_the_difference.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/find_the_difference.rb)
 </details>
 
 ---
@@ -2495,7 +2495,7 @@ Output: 12
 **Constraints:**
 - 0 <= num <= 10^6
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/number_steps_reduce_number_to_zero.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/number_steps_reduce_number_to_zero.rb)
 </details>
 
 ---
@@ -2520,7 +2520,7 @@ Output: "9534330"
 
 **Note:** The result may be very large, so you need to return a string instead of an integer.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_number.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/largest_number.rb)
 </details>
 
 ---
@@ -2558,7 +2558,7 @@ So you finally need to output 3.
 1. You may assume the length of given time series array won't exceed 10000.
 2. You may assume the numbers in the Teemo's attacking time series and his poisoning time duration per attacking are non-negative integers, which won't exceed 10,000,000.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/teemo_attacking.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/teemo_attacking.rb)
 </details>
 
 ---
@@ -2604,7 +2604,7 @@ Output: [0.50000,2.00000,-1.00000,-1.00000]
 - 1 <= queries[i][0], queries[i][1] <= 5
 - equations[i][0], equations[i][1], queries[i][0], queries[i][1] consist of lower case English letters and digits.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/evaluate_division.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/evaluate_division.rb)
 </details>
 
 ---
@@ -2630,7 +2630,7 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 - 0 < nums[i] < 1000.
 - 0 <= k < 10^6.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/subarray_product_less_than_k.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/subarray_product_less_than_k.rb)
 </details>
 
 ---
@@ -2666,7 +2666,7 @@ Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/word_break.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/word_break.rb)
 </details>
 
 ---
@@ -2698,7 +2698,7 @@ Output: 1
 **Follow up:**
 Your algorithm should run in O(n) time and uses constant extra space.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/first_missing_positive.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/first_missing_positive.rb)
 </details>
 
 ---
@@ -2737,7 +2737,7 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002], range is [2,3002]
 - Each test case will call ping with **strictly increasing** values of t.
 - At most 104 calls will be made to ping.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/number_recent_calls.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/number_recent_calls.rb)
 </details>
 
 ---
@@ -2790,7 +2790,7 @@ Output: [[1,1]]
 - All elements of candidates are **distinct**.
 - 1 <= target <= 500
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/combination_sum.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/combination_sum.rb)
 </details>
 
 ---
@@ -2824,7 +2824,7 @@ Note:
 - The divisor will never be 0.
 - Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function **returns 231 − 1 when the division result overflows**.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/divide_two_integers.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/divide_two_integers.rb)
 </details>
 
 ---
@@ -2849,7 +2849,7 @@ return its bottom-up level order traversal as:
   [3]
 ]
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/binary_tree_level_order_traversal_ii.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/binary_tree_level_order_traversal_ii.rb)
 </details>
 
 ---
@@ -2901,7 +2901,7 @@ Output: 1
 - 0 <= intervals[i][0] < intervals[i][1] <= 10^5
 - All the intervals are **unique**.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_covered_intervals.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_covered_intervals.rb)
 </details>
 
 ---
@@ -2940,7 +2940,7 @@ Explanation: 10 is "1010" in binary, with complement "0101" in binary, which is 
 **Note:**
 - 0 <= N < 10^9
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/complement_base_10_integer.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/complement_base_10_integer.rb)
 </details>
 
 ---
@@ -2968,7 +2968,7 @@ Output: false
 **Constraints:**
 - s consists only of printable ASCII characters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_palindrome.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_palindrome.rb)
 </details>
 
 ---
@@ -3005,7 +3005,7 @@ Output: 2
 - 1 <= s.length <= 2000
 - s consits of lower-case and/or upper-case English letters only.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_palindrome.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_palindrome.rb)
 </details>
 
 ---
@@ -3035,7 +3035,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 **Note:**
 - The input string length won't exceed 1000.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
 </details>
 
 ---
@@ -3074,7 +3074,7 @@ Output: [4,2,7,1,3,5]
 - -108 <= val <= 108
 - It's **guaranteed** that val does not exist in the original BST.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/insert_into_bst.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/insert_into_bst.rb)
 </details>
 
 ---
@@ -3123,7 +3123,7 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_from_sorted_array.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_from_sorted_array.rb)
 </details>
 
 ---
@@ -3154,7 +3154,8 @@ rotate 3 steps to the right: 0->1->2->NULL
 rotate 4 steps to the right: 2->0->1->NULL
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/rotate_list.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/rotate_list.rb)
+### [Solution - Python](https://github.com/PhilHuangSW/Leetcode/blob/master/rotate_list.py)
 </details>
 
 ---
@@ -3184,7 +3185,7 @@ Explanation: 2 does not exist in nums so return -1
 2. n will be in the range [1, 10000].
 3. The value of each element in nums will be in the range [-9999, 9999].
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/binary_search.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/binary_search.rb)
 </details>
 
 ---
@@ -3216,7 +3217,7 @@ Output: []
 - 0 <= Node.val <= 104
 - The input tree is **guaranteed** to be a binary search tree.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/serialize_deserialize_bst.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/serialize_deserialize_bst.rb)
 </details>
 
 ---
@@ -3267,7 +3268,7 @@ Output: 1
 - points.length == 2
 - -231 <= xstart < xend <= 231 - 1
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_number_arrows_burst_balloons.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_number_arrows_burst_balloons.rb)
 </details>
 
 ---
@@ -3296,7 +3297,7 @@ Output: "acdb"
 - 1 <= s.length <= 104
 - s consists of lowercase English letters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicate_letters.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicate_letters.rb)
 </details>
 
 ---
@@ -3347,7 +3348,7 @@ Output: false
 - 0 <= B.length <= 20000
 - A and B consist of lowercase letters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/buddy_strings.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/buddy_strings.rb)
 </details>
 
 ---
@@ -3382,7 +3383,7 @@ Output: []
 - The number of nodes in the list is in the range [0, 5 * 104].
 - -105 <= Node.val <= 105
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/sort_list.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/sort_list.rb)
 </details>
 
 ---
@@ -3413,7 +3414,7 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amo
 - 1 <= nums.length <= 100
 - 0 <= nums[i] <= 1000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber_2.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/house_robber_2.rb)
 </details>
 
 ---
@@ -3452,7 +3453,7 @@ rotate 2 steps to the right: [3,99,-1,-100]
 - -231 <= nums[i] <= 231 - 1
 - 0 <= k <= 105
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/rotate_array.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/rotate_array.rb)
 </details>
 
 ---
@@ -3518,7 +3519,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 **Constraints:**
 - 1 <= num <= 3999
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
 </details>
 
 ---
@@ -3571,7 +3572,7 @@ Output: 2.00000
 - 1 <= m + n <= 2000
 - -106 <= nums1[i], nums2[i] <= 106
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/median_of_two_sorted_arrays.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/median_of_two_sorted_arrays.rb)
 </details>
 
 ---
@@ -3611,7 +3612,7 @@ Output: "a"
 - 1 <= s.length <= 1000
 - s consist of only digits and English letters (lower-case and/or upper-case).
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_palindromic_substring.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_palindromic_substring.rb)
 </details>
 
 ---
@@ -3649,7 +3650,7 @@ Output: false
 - 0 <= m, n <= 100
 - -104 <= matrix[i][j], target <= 104
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/search_2D_matrix.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/search_2D_matrix.rb)
 </details>
 
 ---
@@ -3678,7 +3679,7 @@ Explanation: S = "time#bell#" and indexes = [0, 2, 5].
 - 1 <= words[i].length <= 7.
 - Each word has only lowercase letters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/short_encoding_of_words.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/short_encoding_of_words.rb)
 </details>
 
 ---
@@ -3707,7 +3708,7 @@ Output: ["AAAAAAAAAA"]
 - 0 <= s.length <= 105
 - s[i] is 'A', 'C', 'G', or 'T'.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/repeated_dna_sequences.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/repeated_dna_sequences.rb)
 </details>
 
 ---
@@ -3738,7 +3739,7 @@ Explanation: There is no common prefix among the input strings.
 - 0 <= strs[i].length <= 200
 - strs[i] consists of only lower-case English letters.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_common_prefix.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_common_prefix.rb)
 </details>
 
 ---
@@ -3772,7 +3773,7 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 - 0 <= prices.length <= 104
 - 0 <= prices[i] <= 1000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/best_time_to_buy_and_sell_stock_iv.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/best_time_to_buy_and_sell_stock_iv.rb)
 </details>
 
 ---
@@ -3800,7 +3801,7 @@ Output: "255[.]100[.]50[.]0"
 **Constraints:**
 - The given address is a valid IPv4 address.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/defanging_ip_address.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/defanging_ip_address.rb)
 </details>
 
 ---
@@ -3836,7 +3837,7 @@ Only 1771 contains an even number of digits.
 - 1 <= nums.length <= 500
 - 1 <= nums[i] <= 10^5
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/find_numbers_with_even_number_of_digits.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/find_numbers_with_even_number_of_digits.rb)
 </details>
 
 ---
@@ -3890,7 +3891,7 @@ Output: "rat"
 - 0 <= indices[i] < n
 - All values of indices are unique (i.e. indices is a permutation of the integers from 0 to n - 1).
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/shuffle_string.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/shuffle_string.rb)
 </details>
 
 ---
@@ -3942,7 +3943,7 @@ Output: "a"
 - text consists of lowercase English letters and ' '.
 - text contains at least one word.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/rearrange_spaces_between_words.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/rearrange_spaces_between_words.rb)
 </details>
 
 ---
@@ -3980,7 +3981,7 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 - 2 <= A.length == B.length <= 2 * 104
 - 1 <= A[i], B[i] <= 6
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_domino_rotations_for_equal_row.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_domino_rotations_for_equal_row.rb)
 </details>
 
 ---
@@ -4031,7 +4032,7 @@ Explanation: Your function should return length = 5, with the first five element
 - -104 <= nums[i] <= 104
 - nums is sorted in ascending order.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_from_sorted_array.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_from_sorted_array.rb)
 </details>
 
 ---
@@ -4067,7 +4068,7 @@ Output: 1
 - -3 * 104 <= nums[i] <= 3 * 104
 - Each element in the array appears twice except for one element which appears only once.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/single_number.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/single_number.rb)
 </details>
 
 ---
@@ -4135,7 +4136,7 @@ Output: [[2],[1]]
 - There is no repeated edges and no self-loops in the graph.
 - The Graph is connected and all nodes can be visited starting from the given node.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/clone_graph.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/clone_graph.rb)
 </details>
 
 ---
@@ -4183,7 +4184,7 @@ Explanation: The -2 and -1 are moving left, while the 1 and 2 are moving right. 
 - -1000 <= asteroids[i] <= 1000
 - asteroids[i] != 0
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/asteroid_collision.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/asteroid_collision.rb)
 </details>
 
 ---
@@ -4222,7 +4223,7 @@ Output: [1]
 - 1 <= digits.length <= 100
 - 0 <= digits[i] <= 9
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
 </details>
 
 ---
@@ -4262,7 +4263,7 @@ Output: [0,1]
 - -109 <= target <= 109
 **Only one valid answer exists.**
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/two_sum.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/two_sum.rb)
 </details>
 
 ---
@@ -4293,7 +4294,7 @@ Input: [1,1,1,3,3,4,3,2,4,2]
 Output: true
 ```
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/contains_duplicate.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/contains_duplicate.rb)
 </details>
 
 ---
@@ -4325,7 +4326,7 @@ Output: [4,9]
 - What if nums1's size is small compared to nums2's size? Which algorithm is better?
 - What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/intersection_of_two_arrays_ii.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/intersection_of_two_arrays_ii.rb)
 </details>
 
 ---
@@ -4366,7 +4367,7 @@ Output: 0
 **Constraints:**
 - -231 <= x <= 231 - 1
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/reverse_integer.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/reverse_integer.rb)
 </details>
 
 ---
@@ -4401,7 +4402,7 @@ Output: 1
 **Constraints:**
 - 1 <= bad <= n <= 231 - 1
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/first_bad_version.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/first_bad_version.rb)
 </details>
 
 ---
@@ -4432,7 +4433,7 @@ Output: 5
 - The number of nodes in the tree is in the range [0, 105].
 - -1000 <= Node.val <= 1000
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_depth_of_binary_tree.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/minimum_depth_of_binary_tree.rb)
 </details>
 
 ---
@@ -4473,7 +4474,7 @@ Explanation: There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0
 - 1 <= n <= 104
 - -109 <= nums[i] <= 109
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/132_pattern.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/132_pattern.rb)
 </details>
 
 ---
@@ -4579,7 +4580,7 @@ Output: ["0"]
 - -231 <= nums[i] <= 231 - 1
 - All the values of nums are unique.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/summary_ranges.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/summary_ranges.rb)
 </details>
 
 ---
@@ -4627,7 +4628,7 @@ Output: 1
 - At least one seat is empty.
 - At least one seat is occupied.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/maximize_distance_to_closest_person.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/maximize_distance_to_closest_person.rb)
 </details>
 
 ---
@@ -4651,7 +4652,7 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 
 **Follow up:** Could you improve it to O(n log n) time complexity?
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_increasing_subsequence.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/longest_increasing_subsequence.rb)
 </details>
 
 ---
@@ -4680,7 +4681,7 @@ Explanation: The length of longest continuous increasing subsequence is 1, and t
 - 0 <= nums.length <= 2000
 - -106 <= nums[i] <= 106
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/number_of_longest_increasing_subsequence.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/number_of_longest_increasing_subsequence.rb)
 </details>
 
 ---
@@ -4729,7 +4730,57 @@ Output: 0
 - Number of nodes will not exceed 30.
 - Each node's value is either 0 or 1.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/convert_binary_number_in_a_linked_list_to_integer.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/convert_binary_number_in_a_linked_list_to_integer.rb)
+</details>
+
+---
+
+
+## 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a sorted array *nums*, remove the duplicates in-place such that each element appears only once and returns the new length.
+
+Do not allocate extra space for another array, you must do this by **modifying the input array** **in-place** with O(1) extra memory.
+
+**Example 1:**
+```
+Given nums = [1,1,2],
+
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
+
+It doesn't matter what you leave beyond the returned length.
+```
+
+**Example 2:**
+```
+Given nums = [0,0,1,1,1,2,2,3,3,4],
+
+Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively.
+
+It doesn't matter what values are set beyond the returned length.
+```
+
+**Clarification:**
+
+Confused why the returned value is an integer but your answer is an array?
+
+Note that the input array is passed in by **reference**, which means a modification to the input array will be known to the caller as well.
+
+Internally you can think of this:
+```
+// nums is passed in by reference. (i.e., without making a copy)
+int len = removeDuplicates(nums);
+
+// any modification to nums in your function would be known by the caller.
+// using the length returned by your function, it prints the first len elements.
+for (int i = 0; i < len; i++) {
+    print(nums[i]);
+}
+```
+
+### [Solution - Python](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_from_sorted_array.py)
 </details>
 
 ---
