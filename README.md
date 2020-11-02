@@ -4785,13 +4785,25 @@ for (int i = 0; i < len; i++) {
 
 ---
 
-## []()
+## Top Interview Questions (Easy) [First Unique Character in a String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/881/)
 <details>
     <summary>Problem Details and Solution</summary>
 
+Given a string, find the first non-repeating character in it and return its index. If it doesn't exist, return -1.
 
+**Examples:**
+```
+s = "leetcode"
+return 0.
 
-### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+s = "loveleetcode"
+return 2.
+```
+
+**Note:** You may assume the string contains only lowercase English letters.
+
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/first_unique_character_in_a_string.rb)
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/first_unique_character_in_a_string.js)
 </details>
 
 ---
