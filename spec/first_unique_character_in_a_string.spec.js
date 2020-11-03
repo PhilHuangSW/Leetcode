@@ -38,11 +38,11 @@ var firstUniqChar = function(s) {
   return -1
 };
 
-s1 = "loveleetcode"
-s2 = "leetcode"
-s3 = ""
-s4 = "a"
-s5 = "aa"
+const s1 = "loveleetcode"
+const s2 = "leetcode"
+const s3 = ""
+const s4 = "a"
+const s5 = "aa"
 
 describe('First Unique Character', function (){
   it('Returns the index of the first unique character', function (){
