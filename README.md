@@ -4972,6 +4972,7 @@ Output: 4
 - nums.length <= threshold <= 10^6
 
 ### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/find_the_smallest_divisor_given_a_threshold.rb)
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/find_the_smallest_divisor_given_a_threshold.js)
 </details>
 
 ---
