@@ -44,10 +44,20 @@ require 'rspec/autorun'
 
 # @param {Node} root
 # @return {Node}
+# TIME: O(n) -- SPACE: O(1)
+# The (&.) is called the Safe Navigation Operator
+# Instead of writing code like this:
+# if account && account.owner && account.owner.address
+#   ...
+# end
+# we can turn it into this:
+# account&.owner&.address
+# It allows you to call methods on objects without worrying that the object may be nil
 def connect(root)
-  
-end
-
-def dfs(node, cfl, )
-  if node.left.nil?
+  return root if root.nil?
+  root.left.next = root.right if root.left
+  connect(root.left)
+  root.right.next = root&.next&.left if root.right
+  connect(root.right)
+  root
 end
