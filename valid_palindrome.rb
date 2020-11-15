@@ -1,4 +1,4 @@
-#################### VALID PALINDROME ####################
+# ################### VALID PALINDROME ####################
 
 # Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
@@ -20,7 +20,7 @@
 # - s consists only of printable ASCII characters.
 
 
-#################### SOLUTION ####################
+# ################### SOLUTION ####################
 # @param {String} s
 # @return {Boolean}
 def is_palindrome(s)

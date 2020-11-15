@@ -2971,6 +2971,7 @@ Output: false
 - s consists only of printable ASCII characters.
 
 ### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_palindrome.rb)
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/valid_palindrome.js)
 </details>
 
 ---

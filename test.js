@@ -30,18 +30,13 @@
   
 // }
 
-var str = "cat eats dog"
-// let ans = ""
-var length = str.length-1
-// for (let i = 0; i < (length/2); i++) {
-//   let temp = str[i]
-//   str[i] = str[length]
-//   str[length] = temp
-//   length--
-//   console.log(str)
-//   console.log(temp)
-// }
-console.log(str)
-// console.log(ans)
-str = "god stae tac"
-console.log(str)
+var str = "A man, a plan, a canal: Panama"
+// console.log(str.split(" "))
+
+var ans = []
+for (let i = 0; i < str.length-1; i++) {
+  if (str[i].match(/[a-zA-Z]/)) {
+    ans.push(str[i].toLowerCase())
+  }
+}
+console.log(ans)
