@@ -4225,7 +4225,8 @@ Output: [1]
 - 1 <= digits.length <= 100
 - 0 <= digits[i] <= 9
 
-### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/.rb)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/plus_one.rb)
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/plus_one.js)
 </details>
 
 ---
