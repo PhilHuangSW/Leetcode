@@ -1,31 +1,47 @@
-let spaceship = {
-  crew: {
-    captain: { 
-      name: 'Lily', 
-      degree: 'Computer Engineering', 
-      cheerTeam() { console.log('You got this!') } 
-    },
-    'chief officer': { 
-      name: 'Dan', 
-      degree: 'Aerospace Engineering', 
-      agree() { console.log('I agree, captain!') } 
-    },
-    medic: { 
-      name: 'Clementine', 
-      degree: 'Physics', 
-      announce() { console.log(`Jets on!`) } },
-    translator: {
-      name: 'Shauna', 
-      degree: 'Conservation Science', 
-      powerFuel() { console.log('The tank is full!') } 
-    }
-  }
-}; 
+// let spaceship = {
+//   crew: {
+//     captain: { 
+//       name: 'Lily', 
+//       degree: 'Computer Engineering', 
+//       cheerTeam() { console.log('You got this!') } 
+//     },
+//     'chief officer': { 
+//       name: 'Dan', 
+//       degree: 'Aerospace Engineering', 
+//       agree() { console.log('I agree, captain!') } 
+//     },
+//     medic: { 
+//       name: 'Clementine', 
+//       degree: 'Physics', 
+//       announce() { console.log(`Jets on!`) } },
+//     translator: {
+//       name: 'Shauna', 
+//       degree: 'Conservation Science', 
+//       powerFuel() { console.log('The tank is full!') } 
+//     }
+//   }
+// }; 
 
-// for...in
-for (let crewMember in spaceship.crew) {
-  console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`)
-  console.log(`${spaceship.crew[crewMember].degree}`)
-  console.log(`${spaceship.crew[crewMember].cheerTeam}`)
+// // for...in
+// for (let crewMember in spaceship.crew) {
+//   console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`)
+//   console.log(`${spaceship.crew[crewMember].degree}`)
+//   console.log(`${spaceship.crew[crewMember].cheerTeam}`)
   
-}
+// }
+
+var str = "cat eats dog"
+// let ans = ""
+var length = str.length-1
+// for (let i = 0; i < (length/2); i++) {
+//   let temp = str[i]
+//   str[i] = str[length]
+//   str[length] = temp
+//   length--
+//   console.log(str)
+//   console.log(temp)
+// }
+console.log(str)
+// console.log(ans)
+str = "god stae tac"
+console.log(str)

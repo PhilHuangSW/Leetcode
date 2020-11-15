@@ -412,6 +412,7 @@ Output: 1->2->3
 ```
 
 ### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates_sorted_linkedlist.rb)
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/remove_duplicates.js)
 </details>
 
 ---
@@ -553,6 +554,7 @@ Return:
 ```
 
 ### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/fizz_buzz.rb)
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/fizz_buzz.js)
 </details>
 
 --- 
