@@ -3989,7 +3989,7 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 
 ---
 
-## Top Interview Questions (Easy) [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
+## Top Interview Questions (Array) [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4040,7 +4040,7 @@ Explanation: Your function should return length = 5, with the first five element
 
 ---
 
-## Top Interview Questions (Easy) [Single Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/)
+## Top Interview Questions (Array) [Single Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4192,7 +4192,7 @@ Explanation: The -2 and -1 are moving left, while the 1 and 2 are moving right. 
 
 ---
 
-## Top Interview Questions (Easy) [Plus One](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/559/)
+## Top Interview Questions (Array) [Plus One](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/559/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4232,7 +4232,7 @@ Output: [1]
 
 ---
 
-## Top Interview Questions (Easy) [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546/)
+## Top Interview Questions (Array) [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4272,7 +4272,7 @@ Output: [0,1]
 
 ---
 
-## Top Interview Questions (Easy) [Contains Duplicate](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/)
+## Top Interview Questions (Array) [Contains Duplicate](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4303,7 +4303,7 @@ Output: true
 
 ---
 
-## Top Interview Questions (Easy) [Intersection of Two Arrays II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/)
+## Top Interview Questions (Array) [Intersection of Two Arrays II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4335,7 +4335,7 @@ Output: [4,9]
 
 ---
 
-## Top Interview Questions (Easy) [Reverse Integer](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/)
+## Top Interview Questions (Strings) [Reverse Integer](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4376,7 +4376,7 @@ Output: 0
 
 ---
 
-## Top Interview Questions (Easy) [First Bad Version](https://leetcode.com/explore/featured/card/top-interview-questions-easy/96/sorting-and-searching/774/)
+## Top Interview Questions (Sorting and Searching) [First Bad Version](https://leetcode.com/explore/featured/card/top-interview-questions-easy/96/sorting-and-searching/774/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -4789,7 +4789,7 @@ for (int i = 0; i < len; i++) {
 
 ---
 
-## Top Interview Questions (Easy) [First Unique Character in a String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/881/)
+## Top Interview Questions (String) [First Unique Character in a String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/881/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -5131,7 +5131,7 @@ Explanation: Given the above perfect binary tree (Figure A), your function shoul
 
 ---
 
-## Top Interview Questions (Easy) [Move Zeroes](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/567/)
+## Top Interview Questions (Array) [Move Zeroes](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/567/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -5152,7 +5152,7 @@ Output: [1,3,12,0,0]
 
 ---
 
-## Top Interview Questions (Easy) [Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
+## Top Interview Questions (String) [Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -5180,7 +5180,7 @@ Output: ["h","a","n","n","a","H"]
 
 ---
 
-## Top Interview Questions (Easy) [String to Integer (atoi)](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/884/)
+## Top Interview Questions (String) [String to Integer (atoi)](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/884/)
 <details>
     <summary>Problem Details and Solution</summary>
 
@@ -5237,6 +5237,47 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
 - s consists of English letters (lower-case and upper-case), digits, ' ', '+', '-' and '.'.
 
 ### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/parse_int.js)
+</details>
+
+---
+
+## Top Interview Questions (String) [Count and Say](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/886/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+The **count-and-say** sequence is a sequence of digit strings defined by the recursive formula:
+
+- countAndSay(1) = "1"
+- countAndSay(n) is the way you would "say" the digit string from countAndSay(n-1), which is then converted into a different digit string.
+
+To determine how you "say" a digit string, split it into the **minimal** number of groups so that each group is a contiguous section all of the **same character**. Then for each group, say the number of characters, then say the character. To convert the saying into a digit string, replace the counts with a number and concatenate every saying.
+
+For example, the saying and conversion for digit string "3322251":
+
+Given a positive integer n, return the nth term of the **count-and-say sequence.**
+
+**Example 1:**
+```
+Input: n = 1
+Output: "1"
+Explanation: This is the base case.
+```
+
+**Example 2:**
+```
+Input: n = 4
+Output: "1211"
+Explanation:
+countAndSay(1) = "1"
+countAndSay(2) = say "1" = one 1 = "11"
+countAndSay(3) = say "11" = two 1's = "21"
+countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
+``` 
+
+**Constraints:**
+- 1 <= n <= 30
+
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/count_and_say.js)
 </details>
 
 ---

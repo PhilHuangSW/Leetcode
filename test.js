@@ -45,4 +45,38 @@
 
 // console.log(parseInt(str))
 
-console.log(2**31 - 1)
+// console.log(2**31 - 1)
+
+function csHelper(dp) {
+  var ans = ""
+  var idx = 1
+  var current = dp[0]
+  var count = 1
+  while (idx != dp.length) {
+    if (dp[idx] != current) {
+      ans += count.toString()
+      ans += current
+      current = dp[idx]
+      count = 1
+      idx += 1
+      if (idx == dp.length) {
+        ans += count.toString()
+        ans += current
+      }
+    } else {
+      count += 1
+      idx += 1
+      if (idx == dp.length) {
+        ans += count.toString()
+        ans += current
+      }
+    }
+  }
+  return ans
+};
+
+var dp = []
+dp[0] = "1"
+dp[1] = "11"
+
+console.log(csHelper("111221"))
