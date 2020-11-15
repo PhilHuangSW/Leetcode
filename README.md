@@ -5151,6 +5151,34 @@ Output: [1,3,12,0,0]
 
 ---
 
+## Top Interview Questions (Easy) [Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Write a function that reverses a string. The input string is given as an array of characters char[].
+
+Do not allocate extra space for another array, you must do this by **modifying the input array in-place** with O(1) extra memory.
+
+You may assume all the characters consist of printable ascii characters.
+
+**Example 1:**
+```
+Input: ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+```
+
+**Example 2:**
+```
+Input: ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+```
+
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/reverse_string.js)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/reverse_string.rb)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
