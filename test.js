@@ -30,13 +30,19 @@
   
 // }
 
-var str = "A man, a plan, a canal: Panama"
-// console.log(str.split(" "))
+// var str = "A man, a plan, a canal: Panama"
+// // console.log(str.split(" "))
 
-var ans = []
-for (let i = 0; i < str.length-1; i++) {
-  if (str[i].match(/[a-zA-Z]/)) {
-    ans.push(str[i].toLowerCase())
-  }
-}
-console.log(ans)
+// var ans = []
+// for (let i = 0; i < str.length-1; i++) {
+//   if (str[i].match(/[a-zA-Z]/)) {
+//     ans.push(str[i].toLowerCase())
+//   }
+// }
+// console.log(ans)
+
+// var str = "        -2        123       6389 jdskfjo4 34980agfjl"
+
+// console.log(parseInt(str))
+
+console.log(2**31 - 1)
