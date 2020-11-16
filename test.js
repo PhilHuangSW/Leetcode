@@ -47,36 +47,7 @@
 
 // console.log(2**31 - 1)
 
-function csHelper(dp) {
-  var ans = ""
-  var idx = 1
-  var current = dp[0]
-  var count = 1
-  while (idx != dp.length) {
-    if (dp[idx] != current) {
-      ans += count.toString()
-      ans += current
-      current = dp[idx]
-      count = 1
-      idx += 1
-      if (idx == dp.length) {
-        ans += count.toString()
-        ans += current
-      }
-    } else {
-      count += 1
-      idx += 1
-      if (idx == dp.length) {
-        ans += count.toString()
-        ans += current
-      }
-    }
-  }
-  return ans
-};
 
-var dp = []
-dp[0] = "1"
-dp[1] = "11"
-
-console.log(csHelper("111221"))
+[7,6,5,4,3,2,5,8,5,1]
+[4,5,7,7,6,5,4,3,5,8,9,9,8,6,5,4]
+[1,7,2,3,6,6,5,4,3,1]
