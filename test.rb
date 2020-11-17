@@ -1,3 +1,8 @@
-p 500000000500000000 % (10**9 + 7)
+str = "a man, a plan, a canal: panama"
 
-p 500000000 % (10**9)
+str_array = str.split(' ')
+p str_array
+str_array.reverse!
+p str_array
+str1 = str_array.join(' ')
+p str1
