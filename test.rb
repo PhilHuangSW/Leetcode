@@ -1,7 +1,11 @@
-num = 3
-str = "a"
+morse = {"a" => "-.", "b" => "--", "c" => ".."}
 
-p str * num
+str = "abc"
 
-abbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbb
-abbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbbabbbbbbbbbbbb
+m = ""
+
+for i in 0...str.length
+  m += morse[str[i]]
+end
+
+p m
