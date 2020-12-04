@@ -5677,6 +5677,7 @@ Explanation: Factors list is [1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 125, 200, 
 - 1 <= k <= n <= 1000
 
 ### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/kthFactorOfN.js)
+### [Solution - Ruby](https://github.com/PhilHuangSW/Leetcode/blob/master/kth_factor_of_n.rb)
 </details>
 
 ---
