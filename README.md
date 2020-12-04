@@ -5575,6 +5575,59 @@ Output: 1
 
 ---
 
+## 382. [Linked List Random Node - December 2nd, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/linked-list-random-node/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given a singly linked list, return a random node's value from the linked list. Each node must have the **same probability** of being chosen.
+
+**Follow up:**
+What if the linked list is extremely large and its length is unknown to you? Could you solve this efficiently without using extra space?
+
+**Example:**
+```
+// Init a singly linked list [1,2,3].
+ListNode head = new ListNode(1);
+head.next = new ListNode(2);
+head.next.next = new ListNode(3);
+Solution solution = new Solution(head);
+
+// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
+solution.getRandom();
+```
+
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/linkedListRandomNode.js)
+</details>
+
+---
+
+## 897. [Increasing Order Search Tree - December 3rd, 2020 Week 1 Challenge Problem](https://leetcode.com/problems/increasing-order-search-tree/)
+<details>
+    <summary>Problem Details and Solution</summary>
+
+Given the root of a binary search tree, rearrange the tree in **in-order** so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.
+
+**Example 1:**
+```
+Input: root = [5,3,6,2,4,null,8,1,null,null,null,7,9]
+Output: [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
+```
+
+**Example 2:**
+```
+Input: root = [5,1,7]
+Output: [1,null,5,null,7]
+```
+
+**Constraints:**
+- The number of nodes in the given tree will be in the range [1, 100].
+- 0 <= Node.val <= 1000
+
+### [Solution - JavaScript](https://github.com/PhilHuangSW/Leetcode/blob/master/increasingOrderSearchTree.js)
+</details>
+
+---
+
 ## []()
 <details>
     <summary>Problem Details and Solution</summary>
