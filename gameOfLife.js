@@ -37,11 +37,78 @@
  * @return {void} Do not return anything, modify board in-place instead.
  */
 var gameOfLife = function(board) {
-  
+  let nextState = []
+  for (let i = 0; i < board.length; i++) {
+    let temp = []
+    for (let j = 0; j < board[i].length; j++) {
+      let neighbors = findNeighbors(i, j, board)
+      if (board[i][j] === 1) {
+        if (neighbors < 2) {
+          temp.push(0)
+        } else if (neighbors === 2 || neighbors === 3) {
+          temp.push(1)
+        } else {
+          temp.push(0)
+        }
+      } else {
+        if (neighbors === 3) {
+          temp.push(1)
+        } else {
+          temp.push(0)
+        }
+      }
+    }
+    nextState.push(temp)
+  }
+  return nextState
 };
 
 var findNeighbors = function(x, y, board) {
-  
+  let oneTally = 0
+  if (y != 0) {
+    if (x != 0) {
+      if (board[x-1][y-1] === 1) {
+        oneTally += 1
+      }
+    }
+    if (board[x][y-1] === 1) {
+      oneTally += 1
+    }
+    if (x != board[0].length) {
+      if (board[x+1][y-1] === 1) {
+        oneTally += 1
+      }
+    }
+  }
+
+  if (x != 0) {
+    if (board[x-1][y] === 1) {
+      oneTally += 1
+    }
+  }
+  if (x != board[0].length) {
+    if (board[x+1][y] === 1) {
+      oneTally += 1
+    }
+  }
+
+  if (y != board.length) {
+    if (x != 0) {
+      if (board[x-1][y+1] === 1) {
+        oneTally += 1
+      }
+    }
+    if (board[x][y+1] === 1) {
+      oneTally += 1
+    }
+    if (x != board[0].length) {
+      if (board[x+1][y+1] === 1) {
+        oneTally += 1
+      }
+    }
+  }
+  return oneTally
 }
 
 var board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
+console.log(gameOfLife(board))
