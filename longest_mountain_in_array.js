@@ -39,7 +39,7 @@
  * @return {number}
  */
 // TIME: O(n) -- SPACE: O(1)
-var longestMountain = function(A) {
+var longestMountain = function (A) {
   if (A.length < 3) {
     return 0
   } else {
@@ -90,36 +90,36 @@ var longestMountain = function(A) {
 
 const A1 = []
 const A2 = [1]
-const A3 = [1,2]
-const A4 = [1,2,3]
-const A5 = [1,3,2]
-const A6 = [7,6,5,4,3,2,5,8,5,1]
-const A7 = [4,5,7,7,6,5,4,3,5,8,9,9,8,6,5,4]
-const A8 = [1,7,2,3,6,6,5,4,3,1]
+const A3 = [1, 2]
+const A4 = [1, 2, 3]
+const A5 = [1, 3, 2]
+const A6 = [7, 6, 5, 4, 3, 2, 5, 8, 5, 1]
+const A7 = [4, 5, 7, 7, 6, 5, 4, 3, 5, 8, 9, 9, 8, 6, 5, 4]
+const A8 = [1, 7, 2, 3, 6, 6, 5, 4, 3, 1]
 
-describe("Longest Mountain", function() {
-  it("returns the longest viable mountain in array", function() {
+describe("Longest Mountain", function () {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A1)).toEqual(0)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A2)).toEqual(0)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A3)).toEqual(0)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A4)).toEqual(0)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A5)).toEqual(3)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A6)).toEqual(5)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A7)).toEqual(0)
   })
-  it("returns the longest viable mountain in array", function() {
+  it("returns the longest viable mountain in array", function () {
     expect(longestMountain(A8)).toEqual(3)
   })
 })

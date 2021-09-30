@@ -5860,4 +5860,15 @@ Output: [8,9,9,9,0,0,0,1]
 
 ---
 
+## []()
+<details>
+    <summary>Problem Details and Solution</summary>
+
+
+
+### [Solution](https://github.com/PhilHuangSW/Leetcode/blob/master/)
+</details>
+
+---
+
 

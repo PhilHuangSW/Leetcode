@@ -31,7 +31,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var maxDepth = function(root) {
+var maxDepth = function (root) {
   if (root == null) {
     return 0
   }
@@ -43,7 +43,7 @@ var maxDepth = function(root) {
 function dfs(node, depth, array) {
   if (node.left == null && node.right == null) {
     array.push(depth)
-  } 
+  }
   if (node.left != null) {
     dfs(node.left, depth + 1, array)
   }
