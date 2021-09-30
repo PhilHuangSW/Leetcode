@@ -1,0 +1,24 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "<details>\r \t<summary>Problem Details and Solution</summary>\r Given head which is a reference node to a singly-linked list. \r The value of each node in the linked list is either 0 or 1. \r The linked list holds the binary representation of a number.",
+  "main": "canPlaceFlowers.js",
+  "dependencies": {
+    "jest": "^27.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilHuangSW/Leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilHuangSW/Leetcode/issues"
+  },
+  "homepage": "https://github.com/PhilHuangSW/Leetcode#readme"
+}
